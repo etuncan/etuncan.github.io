@@ -23,7 +23,7 @@ html,body{
 	float:left;
 	margin-left:;
 	margin-right:;
-	padding:10px;
+	padding:8px;
 	padding-top:12px;
 	padding-bottom:12px;
 }
@@ -64,6 +64,16 @@ background-color:#FFFFFF;
 height:830px;
 box-shadow: 0 0 10px 4px #282828;
 }
+.buttons{
+	float:right;
+	margin:2px;
+}
+.buttons img{
+	width:30px;
+	height:auto;
+}
+
+
 article{
 	width:80%;
 	padding:4px;
@@ -73,14 +83,73 @@ article{
 	background-color:#FFFFFF;
 }
 
+iframe{
+height:600px; 
+width:100%;
+}
 
 #text{
 }
-/*footer{
-	width:100%;
-	text-align:center;
-	left:0px;
-	bottom:0px;
-	padding-bottom:5px;
-	font-size:0.8em;
-}*/ 
+@media only screen and (min-width:1201px) and (max-width:1600px){
+	
+}
+@media only screen and (min-width:993px) and (max-width:1200px){
+
+	
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+
+	
+}
+@media only screen and (min-width:361px) and (max-width:768px){
+	/*Navigation*/
+	
+	#nav ul{
+		padding-left:1%;
+	}
+	#nav li{
+		padding-left:5px;
+		padding-right:5px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	#nav li a{
+		font-size:1em;
+	}
+	/*Main Body*/
+
+}
+@media only screen and (max-width:360px){
+	/*Navigation*/
+	
+	#nav ul{
+		padding-left:3px;
+	}
+	#nav li{
+		padding-left:5px;
+		padding-right:5px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	#nav li a{
+		font-size:1em;
+	}
+	/*External Media Links*/
+
+	.mediaPort{
+		float:left;
+		margin-top:5px;
+		margin-right:5px;
+		
+	}
+	.mediaPort a{
+		margin:1px;
+	}
+	.mediaPort a img{
+		width:30px;
+		height:auto;
+	}
+	
+}
