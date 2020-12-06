@@ -39,18 +39,22 @@ html,body{
 	color:#808080;
 }
 
-/*Social Media Links*/
-.mediaPort{
+/*External Media Links*/
+.smedialink{
 	float:right;
 	margin-top:5px;
 	margin-right:5px;
+	
 }
-.mediaPort a{
+.smedialink a{
 	margin:1px;
 }
-.mediaPort a img{
-	max-width:100%;
+.smedialink a img{
+	max-width:28px;
 	height:auto;
+}
+.smedialink a:hover{
+	opacity:80%;
 }
 
 /*Main Body*/
@@ -60,23 +64,44 @@ html,body{
 	margin-left:auto;
 	margin-right:auto;
 }
-section{
-	width:60%;
-	margin-left:auto;
-	margin-right:auto;
-	padding:20px;
+#statement{
+	margin-left:40px;
+	margin-right:40px;
+	margin-bottom:20px;
+	border:2px solid #2a2a2a;
+	border-radius:10px;
 }
-section ul{
+#statement h2{
+	margin-top:0;
+	padding-top:2px;
+	padding-left:2px;
+	background-color:#2a2a2a;
+	border-radius:5px;
+	color:#f0f0f0;
+}
+#statement p{
+	margin-left:8px;
+	margin-right:8px;
+}
+
+#left-col ul,#right-col ul{
 	list-style-type:none;
 	padding-left:10px;
+	
 }
-@media only screen and (min-width:992px) and (max-width:1200px){
-
+#left-col,#right-col{
+	width:400px;
+	height:500px;
+	margin-top:20px;
+	padding:10px 20px;
+	border:2px solid black;
+	border-radius:10px;
 }
-@media only screen and (min-width:768px) and (max-width:991px){
-
-@media only screen and (max-width:767px){
-	.mediaPort a{
-		margin:1%;
-	}
+#left-col{
+	float:left;
+	margin-left:40px;
+}
+#right-col{
+	float:right;
+	margin-right:40px;
 }

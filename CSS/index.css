@@ -9,6 +9,12 @@ html,body{
 	background-color:#ffffff;
 	font-family:Arial,Helvetica,sans-serif;
 }
+/*body{
+	background-image:url("../Assets/bg_beta_2.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:inherit;
+}*/
 /*Navigation*/
 #nav ul{
 	overflow:hidden;
@@ -40,76 +46,55 @@ html,body{
 }
 /*External Media Links*/
 
-.mediaPort{
+.smedialink{
 	float:right;
 	margin-top:5px;
 	margin-right:5px;
 	
 }
-.mediaPort a{
+.smedialink a{
 	margin:1px;
 }
-.mediaPort a img{
-	max-width:100%;
+.smedialink a img{
+	max-width:28px;
 	height:auto;
 }
-	/*Main Body*/
-#index_logo_Lg{
-	margin-top:100px;
+.smedialink a:hover{
+	opacity:80%;
 }
-#index_logo_Lg img{
-	display:block;
-	max-width:480px;
-	margin-left:auto;
-	margin-right:auto;
-}
-#index_subMenu{
-	margin-top:80px;
-	margin-bottom:80px;
-	margin-left:auto;
-	margin-right:auto;
-
-}
-#index_subMenu a{
-	text-decoration:none;
-	display:inline-block;
-}
+/*Main Body*/
 .wrapper{
+	height:80%;
+	margin-top:5%;
 	text-align:center;
 }
 
+#mainlogo img{
+	display:block;
+	max-width:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#logomenu{
+	margin-top:1%;
+	margin-bottom:1%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#logomenu a{
+	display:inline-block;
+	text-decoration:none;
+}
+#logomenu a img{
+	max-height:45px;
+}
+
 @media only screen and (min-width:992px) and (max-width:1200px){
-	/*Main Body*/
-	#index_logo_Lg{
-		margin-top:6%;
-	}
-	#index_subMenu{
-		margin-top:4%;
-		margin-bottom:4%
-``
-	}
 }
 @media only screen and (min-width:768px) and (max-width:991px){
-	/*Main Body*/
-	#index_logo_Lg{
-		margin-top:6%;
-	}
-	#index_subMenu{
-		margin-top:3.5%;
-		margin-bottom:3.5%;
-``
-	}
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+}
 @media only screen and (max-width:767px){
-	.mediaPort a{
-		margin:1%;
-	}
-	/*Main Body*/
-	
-	#index_logo_Lg{
-		margin-top:6%;
-	}
-	#index_subMenu{
-		margin-top:3.5%;
-		margin-bottom:3.5%;
-	}
 }

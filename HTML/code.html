@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 	<head>
 		<title>Kit & Crow Creations/Code</title>
@@ -8,60 +8,89 @@
 	</head>
 	<body>
 		<header>		
+			<!--*Navigation*-->
 			<div id="nav">
 				<ul>
 					<li><a href="../index.html" id="homeTg">Home</a></li>
 					<li><a href="gal.html" id="galTg">Art</a></li>
-					<li><a href="#" id="codeTg">Code</a></li>
-					<li><a href="lit.html" id="litTg">Literature</a></li>
+					<li><a href="code.html" id="codeTg">Code</a></li>
+					<li><a href="lit-temp.html" id="litTg">Literature</a></li>
 					<li><a href="about.html" id="aboutTg">About</a></li>
 				</ul>
 			</div>
+			
+			<!--*External Media Links*-->
+			<div class="smedialink">
+				<a href="#"><img title="Facebook" src="../Assets/icon-facebook.png"/></a>
+				<a href="#"><img title="GitHub" src="../Assets/icon-github.png"/></a>
+				<a href="https://www.linkedin.com/in/erin-tuncan-609930109/"><img title="Linkedin" src="../Assets/icon-linkedin.png"/></a>
+			</div>
 		</header>
 		
-		<div class="mediaPort">
-				<a href="#"><img title="Facebook" src="../Assets/sm-facebook-32x32.png"/></a>
-				<a href="#"><img title="GitHub" src="../Assets/sm-temp-32x32.png"/></a>
-				<a href="https://www.linkedin.com/in/erin-tuncan-609930109/"><img title="Linkedin" src="../Assets/sm-linkedin-32x32.png"/></a>
-		</div>
-		
+		<!--Main Body-->
 		<div class="wrapper">
 			<h2>Code Library</h2>
-			<table>
-				<th>Icon</th>
-				<th>File Name</th>
-				<th>Type</th>
-				<th>Link</th>
-				<th>Date(mm/dd/yyyy)</th>
-				<tr>
-					<td>-</td>
-					<td>Lorem Ipsum</td>
-					<td>JS</td>
-					<td><a href="">Lorem Ipsum</a></td>
-					<td>02/22/2020</td>
-				</tr>
-				<tr>
-					<td>-</td>
-					<td>Lorem Ipsum</td>
-					<td>PHP</td>
-					<td><a href="">Lorem Ipsum</a></td>
-					<td>02/21/2020</td>
-				</tr>
-				<tr>
-					<td>-</td>
-					<td>Lorem Ipsum</td>
-					<td>HTML</td>
-					<td><a href="">Lorem Ipsum</a></td>
-					<td>01/29/2020</td>
-				</tr>
-				<tr>
-					<td>-</td>
-					<td>Lorem Ipsum</td>
-					<td>CSS</td>
-					<td><a href="">Lorem Ipsum</td>
-					<td>11/04/2012</td>
-				</tr>
+			<table id="codetable">
+				<thead>
+					<!--<th><button id="iconhead" class="sort"></button></th>-->
+					<th>File Name<button id="namehead" class="sort"></button></th>
+					<th>Type<button id="typehead" class="sort"></button></th>
+					<th>Date(m/d/y)<button id="datehead" class="sort"></button></th>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<!--<td class="icon"></td>-->
+						<td class="name"><a href="https://github.com/etuncan/Porfolio2.0/blob/master/Examples/accordion_sections_Ex.html">Accordation Example</a></td>
+						<td class="type">Multi</td>
+						<td class="date">12/06/2020</td>
+					</tr>
+					
+					<tr>
+						<!--<td class="icon"></td>-->
+						<td class="name"><a href="https://github.com/etuncan/Porfolio2.0/blob/master/Examples/toggle_exp.html">Toggle Button Example</a></td>
+						<td class="type">Multi</td>
+						<td class="date">12/19/2019</td>
+					</tr>
+					<tr>
+						<!--<td class="icon"></td>-->
+						<td class="name"><a href="https://github.com/etuncan/Porfolio2.0/blob/master/Examples/table_search_exp.html">Table Search Bar Example</a></td>
+						<td class="type">Multi</td>
+						<td class="date">05/12/2020</td>
+					</tr>
+					<tr>
+						<!--<td class="icon"></td>-->
+						<td class="name"><a href="https://github.com/etuncan/Porfolio2.0/blob/master/Examples/table_sort_exp.html">Table Sorting Button Example</a></td>
+						<td class="type">Multi</td>
+						<td class="date">05/13/2020</td>
+					</tr>
+					<tr>
+						<!--<td class="icon"></td>-->
+						<td class="name"><a href="https://github.com/etuncan/Porfolio2.0/blob/master/Snippets/form_login.html">Login Form</a></td>
+						<td class="type">HTML</td>
+						<td class="date">07/25/2019</td>
+					</tr>
+					<tr>
+						<!--<td class="icon"></td>-->
+						<td class="name"><a href="https://github.com/etuncan/Porfolio2.0/blob/master/Snippets/checkbox_show_password.js">Show Password Checkbox</a></td>
+						<td class="type">JS</td>
+						<td class="date">08/01/2019</td>
+					</tr>
+					<tr>
+						<!--<td class="icon"></td>-->
+						<td class="name"><a href="https://github.com/etuncan/Porfolio2.0/blob/master/Snippets/registration.html">Registration Form</a></td>
+						<td class="type">HTML</td>
+						<td class="date">04/27/2020</td>
+					</tr>
+					<tr>
+						<!--<td class="icon"></td>-->
+						<td class="name"><a href="https://github.com/etuncan/Porfolio2.0/blob/master/Snippets/form_register_password_check.js">Password Input Comparison</a></td>
+						<td class="type">JS</td>
+						<td class="date">06/01/2020</td>
+					</tr>
+				</tbody>
 			</table>
 		</div>
+		<script src="../JS/code.js"></script>
 	</body>
 </html>
