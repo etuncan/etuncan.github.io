@@ -39,26 +39,29 @@ html,body{
 #nav li a:hover{
 	color:#808080;
 }
-	/*Social Media Links*/
 
-.mediaPort{
+/*Social Media Links*/
+.smedialink{
 	float:right;
 	margin-top:5px;
-	margin-right:10px;
+	margin-right:5px;
 	
 }
-.mediaPort a{
+.smedialink a{
 	margin:1px;
 }
-.mediaPort a img{
-	max-width:100%;
+.smedialink a img{
+	max-width:28px;
 	height:auto;
+}
+.smedialink a:hover{
+	opacity:80%;
 }
 
 .wrapper{
 position:relative;
 min-height:80%;
-width:80%;
+width:60%;
 margin-left:auto;
 margin-right:auto;
 padding-bottom:20px;
@@ -66,42 +69,52 @@ padding-bottom:20px;
 h1,h4{
 	text-align:center;
 }
-	/*Gallery*/
+
+/*Gallery*/
 #gallery{
-	width:580px;
+	width:100%;
 	height:auto;
-	margin-top:5%;
+	margin-top:4%;
 	margin-left:auto;
 	margin-right:auto;
-	padding:30px 30px;
-	background-color:#f7f7f7;
 	font-size:0;
-	box-shadow:0 0 8px 1px #8c8c8c, 0 0 6px 2px #dcdcdc;
+	padding:5%;
+	background-color:;
+	display:grid;
+	grid-column-gap:5%;
+	grid-row-gap:5%;
+	grid-template-columns:30% 30% 30%;
+	
+
 }
 
 .gItem{
-	display:inline-grid;
-	width:120px;
-	margin:4px 5px;
-	padding:10px 0px;
+	width:100%;
+	height:auto;
 	background-color:#ffffff;
-	box-shadow:0 0 8px 1px #cccccc;
 }
+
 .gItem img{
+	width:100%;
+	height:80%;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:10px;
+
 }
+
 .gItem img:hover{
 	cursor:pointer;
 }
-.gItem span{
-	text-align:center;
-	font-size:10pt;
+
+.caption{
+	display:block;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:2%;
+	font-size:0.8rem;
 }
-.gal_item:nth-of-type(4){
-	clear:right;
-}
+
 .lightBox{
 	display:none;
 	overflow:auto;
@@ -120,9 +133,13 @@ h1,h4{
 #modalImage{
 	display:block;
 	position:relative;
-	width:80%;
-	max-width:700px;
-	margin:auto;
+	width:auto;
+	max-width:1000px;
+	height:90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:auto;
 }
 
 #prev,#next{
@@ -143,6 +160,7 @@ h1,h4{
 	right:20px;
 	border-radius: 3px 0 0 3px;
 }
+
 #prev{
 	left:20px;
 	border-radius:0 3px 3px 0;
@@ -165,62 +183,13 @@ h1,h4{
 }
 
 
-@media only screen and (min-width:1201px) and (max-width:1600px){
-	
-}
-@media only screen and (min-width:993px) and (max-width:1200px){
-	
-}
-@media only screen and (min-width:769px) and (max-width:992px){
+@media only screen and (min-width:992px) and (max-width:1200px){
 
 }
-@media only screen and (min-width:361px) and (max-width:768px){
-	/*Navigation*/
-	
-	#nav ul{
-		padding-left:1%;
-	}
-	#nav li{
-		padding-left:5px;
-		padding-right:5px;
-		padding-top:10px;
-		padding-bottom:10px;
-	}
+@media only screen and (min-width:768px) and (max-width:991px){
 
-	#nav li a{
-		font-size:1em;
-	}
-}
-@media only screen and (max-width:360px){
-	/*Navigation*/
-	
-	#nav ul{
-		padding-left:3px;
-	}
-	#nav li{
-		padding-left:5px;
-		padding-right:5px;
-		padding-top:10px;
-		padding-bottom:10px;
-	}
-
-	#nav li a{
-		font-size:1em;
-	}
-	/*External Media Links*/
-
-	.mediaPort{
-		float:left;
-		margin-top:5px;
-		margin-right:5px;
-		
-	}
+@media only screen and (max-width:767px){
 	.mediaPort a{
-		margin:1px;
+		margin:1%;
 	}
-	.mediaPort a img{
-		width:30px;
-		height:auto;
-	}
-		
 }
