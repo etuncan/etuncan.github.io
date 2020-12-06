@@ -96,7 +96,6 @@ html,body{
 	padding:10px 20px;
 	border:2px solid black;
 	border-radius:10px;
-	
 }
 #left-col{
 	float:left;
@@ -105,16 +104,4 @@ html,body{
 #right-col{
 	float:right;
 	margin-right:40px;
-}
-
-
-@media only screen and (min-width:992px) and (max-width:1200px){
-
-}
-@media only screen and (min-width:768px) and (max-width:991px){
-
-@media only screen and (max-width:767px){
-	.mediaPort a{
-		margin:1%;
-	}
 }

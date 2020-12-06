@@ -91,37 +91,10 @@ html,body{
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px){
-	/*Main Body*/
-	#index_logo_Lg{
-		margin-top:6%;
-	}
-	#index_subMenu{
-		margin-top:4%;
-		margin-bottom:4%
-``
-	}
 }
 @media only screen and (min-width:768px) and (max-width:991px){
-	/*Main Body*/
-	#index_logo_Lg{
-		margin-top:6%;
-	}
-	#index_subMenu{
-		margin-top:3.5%;
-		margin-bottom:3.5%;
-``
-	}
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+}
 @media only screen and (max-width:767px){
-	.mediaPort a{
-		margin:1%;
-	}
-	/*Main Body*/
-	
-	#index_logo_Lg{
-		margin-top:6%;
-	}
-	#index_subMenu{
-		margin-top:3.5%;
-		margin-bottom:3.5%;
-	}
 }
