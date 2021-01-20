@@ -1,107 +1,61 @@
-/*Desktop*/
-*{
-box-sizing:border-box;
-}
-html,body{
-	height:100%;
-	width:100%;
-	margin:0%;
-	background-color:#ffffff;
-	font-family:Arial,Helvetica,sans-serif;
-}
-/*Navigation*/
-#nav ul{
-	overflow:hidden;
-	width:100%;
-	list-style-type:none;
-	background-color:#2a2a2a;
-	margin:0;
-	padding-left:1.5%;
-}
-#nav li{
-	float:left;
-	margin-left:;
-	margin-right:;
-	padding:8px;
-	padding-top:12px;
-	padding-bottom:12px;
-}
-
-#nav li a{
-	display:block;
-	text-align:center;
-	font:;
-	color:#f0f0f0;
-	font-size:1.2em;
-	text-decoration:none;
-}
-#nav li a:hover{
-	color:#808080;
-}
-
-/*External Media Links*/
-.smedialink{
-	float:right;
-	margin-top:5px;
-	margin-right:5px;
-	
-}
-.smedialink a{
-	margin:1px;
-}
-.smedialink a img{
-	max-width:28px;
-	height:auto;
-}
-.smedialink a:hover{
-	opacity:80%;
-}
 
 /*Main Body*/
 .wrapper{
-	width:1000px;
+	width:60%;
 	margin-top:6%;
 	margin-left:auto;
 	margin-right:auto;
 }
 #statement{
-	margin-left:40px;
-	margin-right:40px;
-	margin-bottom:20px;
-	border:2px solid #2a2a2a;
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid black;
 	border-radius:10px;
 }
 #statement h2{
 	margin-top:0;
-	padding-top:2px;
-	padding-left:2px;
-	background-color:#2a2a2a;
+	padding-top:0.5%;
+	padding-left:0.5%;
+	padding-bottom:0.5%;
+	background-color:black;
 	border-radius:5px;
 	color:#f0f0f0;
 }
 #statement p{
-	margin-left:8px;
-	margin-right:8px;
+	padding-left:3%;
+	padding-right:3%;
 }
 
 #left-col ul,#right-col ul{
 	list-style-type:none;
-	padding-left:10px;
+	padding-left:5px;
 	
 }
 #left-col,#right-col{
-	width:400px;
-	height:500px;
+	width:40%;
+	height:;
 	margin-top:20px;
 	padding:10px 20px;
 	border:2px solid black;
 	border-radius:10px;
+	
 }
 #left-col{
 	float:left;
-	margin-left:40px;
 }
 #right-col{
 	float:right;
-	margin-right:40px;
+}
+
+/*Laptop*/
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+}
+/*Tablet*/
+@media only screen and (max-width:481px) and (max-width:768px){
+
+}
+/*Mobile*/
+@media only screen and (max-width:480px){
+
 }
