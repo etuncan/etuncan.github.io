@@ -17,13 +17,12 @@ html,body{
 	list-style-type:none;
 	background-color:#2a2a2a;
 	margin:0;
-	padding-left:1.5%;
+	padding-left:1%;
 }
 #nav li{
 	float:left;
-	margin-left:;
-	margin-right:;
-	padding:8px;
+	padding-left:8px;
+	padding-right:8px;
 	padding-top:12px;
 	padding-bottom:12px;
 }
@@ -31,31 +30,39 @@ html,body{
 #nav li a{
 	display:block;
 	text-align:center;
-	font:;
 	color:#f0f0f0;
 	font-size:1.2em;
 	text-decoration:none;
+}
+#nav img{
+	float:left;
+	width:2em;
+	padding-top:0.4em;
 }
 #nav li a:hover{
 	color:#808080;
 	cursor:pointer;
 }
-#nav .active{
+#nav .current{
 	color:#d35400;
 }
 
 /*External Media Links*/
 .smedialink{
-	float:right;
+	width:100%;
+	text-align:right;
+	padding-top:0.5%;
+	padding-right:0.5%;
+	/*float:right;
 	margin-top:5px;
-	margin-right:5px;
+	margin-right:5px;*/
 	
 }
 .smedialink a{
-	margin:1px;
+	margin:0.01%;
 }
 .smedialink a img{
-	max-width:28px;
+	width:28px;
 	height:auto;
 }
 .smedialink a:hover{
