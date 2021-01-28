@@ -1,25 +1,48 @@
-
+*{
+box-sizing:border-box;
+}
 /*Main Body*/
 .wrapper{
-	height:80%;
-	margin-top:5%;
+	height:78%;
+	width:50%;
+	margin-top:3%;
+	margin-left:auto;
+	margin-right:auto;
 	text-align:center;
+	background-color:#2c2c2c;
+	border:#e8e8e8 ridge 4px;
+	border-radius:8px 8px 8px 8px;
+	box-shadow:0 0 10px #000000;
 }
-h2{
+.title{
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+h1{
+	 text-shadow:0 0 6px #f0f0f0;
+	padding-top:4%;
+	padding-bottom:4%;
 	text-align:center;
-	margin-top:100px;
+	color:#ffffff;
+	font-family:"Courier New",monospace;
+	
 }
 /*table for external code links and sorting*/
 table{
-	border-collapse:collaps;
+	border-collapse:collapse;
 	margin-left:auto;
 	margin-right:auto;
+	background-color:#ffffff;
+	border-radius:8px;
 }
 
 thead{
 	display:table-header-group;
 	vertical-align:middle;
 	border-color:inherit;
+	border-radius:8px;
 }
 .sort{
 	background:url('../Assets/arrows.png');
@@ -30,7 +53,12 @@ thead{
 	border:none;
 	float:right;
 }
-
+thead th:first-child{
+border-radius:8px 0 0 0;
+}
+thead th:last-child{
+border-radius:0 8px 0 0;
+}
 
 th,td{
 	text-align:left;
@@ -43,23 +71,30 @@ th,td{
 
 th{
 	color:#ffffff;
-	background-color:#000000;
+	background-color:#cb6d51;
 }
 th:nth-of-type(1),td:nth-of-type(1){
 	width:18rem;
 }
-tr{
-	
-}
+
 tr:nth-of-type(odd){
-	background-color:#d9d9d9;
+	background-color:#f1f1f1;
+	color:#000000;
 }
+tr:nth-of-type(even){
+	background-color:#cb6d51;
+	color:#ffffff;
+	opacity:80%
+}
+
 td{
 	font-size:1rem;
 
 }
 td a{
- text-decoration:none;
+	font-family:Verdana,sans-serif;
+	color:inherit;
+	text-decoration:none;
 }
 td:nth-of-type(2){
 	font-size:1rem;
@@ -73,11 +108,11 @@ td:nth-of-type(2){
 /*Tablet*/
 @media only screen and (max-width:481px) and (max-width:768px){
 	.wrapper{
-		width:90%;
+		width:100%;
 	}
 
 }
 /*Mobile*/
 @media only screen and (max-width:480px){
-
+	.
 }
