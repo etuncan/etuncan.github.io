@@ -3,11 +3,12 @@ box-sizing:border-box;
 }
 /*Main Body*/
 .wrapper{
-	height:78%;
+	height:auto;
 	width:50%;
 	margin-top:3%;
 	margin-left:auto;
 	margin-right:auto;
+	padding-bottom:2%;
 	text-align:center;
 	background-color:#2c2c2c;
 	border:#e8e8e8 ridge 4px;
