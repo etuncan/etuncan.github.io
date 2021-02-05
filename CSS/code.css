@@ -104,7 +104,7 @@ td:nth-of-type(2){
 /*Laptop*/
 @media only screen and (min-width:769px) and (max-width:1024px){
 	.wrapper{
-		width:80%;
+
 	}
 }
 /*Tablet*/
