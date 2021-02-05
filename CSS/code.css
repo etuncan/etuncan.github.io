@@ -77,8 +77,9 @@ tr:nth-of-type(even){
 	background-color:#7DCEA0;
 	color:#000000;
 }
-
-
+td{
+	font-size:0.9rem;
+}
 td a{
 	font-family:Verdana,sans-serif;
 	color:inherit;
@@ -158,6 +159,9 @@ td a{
 	tr:nth-of-type(even){
 		background-color:#7DCEA0;
 		color:#000000;
+	}
+	td{
+		font-size:0.7rem;
 	}
 	td a{
 		font-family:Verdana,sans-serif;
