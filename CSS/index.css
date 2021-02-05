@@ -1,76 +1,105 @@
-
+*{
+box-sizing:border-box;
+}
 /*Main Body*/
 .wrapper{
 	height:80%;
-	margin-top:5%;
+	margin-top:2%;
 	text-align:center;
 }
 
 #mainlogo img{
 	display:block;
 	max-width:300px;
+}
+#mainlogo img,#logomenu,#logomenu a img{
 	margin-left:auto;
-	margin-right:auto;
+	margin-right:auto;	
 }
 #logomenu{
-	margin-top:1%;
-	margin-bottom:1%;
-	margin-left:auto;
-	margin-right:auto;
-
+	max-width:500px;
+	margin-top:2%;
 }
 #logomenu a{
-	display:inline-block;
-	text-decoration:none;
+	display:inline-block;	
+	height:50px;
+	width:auto;
+}
+#logomenu img{
+	height:50px;
+	width:auto;
+}
+#logomenu img:nth-of-type(1){
+	margin-left:1px;
+}
+#logomenu img:nth-of-type(2){
+	margin-right:1px;
 }
 #logomenu a img{
-	max-height:45px;
+	margin-top:5px;
+	margin-bottom:5px;
+	height:40px;
+	width:auto;
 }
 
 /*Laptop*/
 @media only screen and (min-width:769px) and (max-width:1024px){
+	.wrapper{
+		height:80%;
+		margin-top:2%;
+		text-align:center;
+	}
 
+	#mainlogo img{
+		display:block;
+		max-width:300px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#logomenu{
+		margin-top:1%;
+		margin-bottom:1%;
+		margin-left:auto;
+		margin-right:auto;
+
+	}
+	#logomenu a{
+		display:inline-block;
+		text-decoration:none;
+	}
+	#logomenu a img{
+		max-height:45px;
+	}
 }
 /*Tablet*/
 @media only screen and (max-width:481px) and (max-width:768px){
-
-}
-/*Mobile*/
-@media only screen and (max-width:480px){
-
-}
-@media only screen and (min-width:992px) and (max-width:1200px){
 	/*Main Body*/
 	#index_logo_Lg{
 		margin-top:6%;
 	}
 	#index_subMenu{
 		margin-top:4%;
-		margin-bottom:4%
-``
+		margin-bottom:4%;
 	}
+
 }
-@media only screen and (min-width:768px) and (max-width:991px){
+/*Mobile*/
+@media only screen and (max-width:480px){
 	/*Main Body*/
+	#mainlogo img{
+		display:block;
+		max-width:250px;
+		margin-left:auto;
+		margin-right:auto;
+	}
 	#index_logo_Lg{
 		margin-top:6%;
 	}
 	#index_subMenu{
 		margin-top:3.5%;
 		margin-bottom:3.5%;
-``
 	}
-@media only screen and (max-width:767px){
-	.mediaPort a{
-		margin:1%;
-	}
-	/*Main Body*/
-	
-	#index_logo_Lg{
-		margin-top:6%;
-	}
-	#index_subMenu{
-		margin-top:3.5%;
-		margin-bottom:3.5%;
+	#logomenu a img{
+		max-height:40px;
 	}
 }
