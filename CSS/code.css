@@ -10,10 +10,9 @@ box-sizing:border-box;
 	margin-right:auto;
 	padding-bottom:2%;
 	text-align:center;
-	background-color:#2c2c2c;
-	border:#e8e8e8 ridge 4px;
+	background-color:;
+	border:;
 	border-radius:8px 8px 8px 8px;
-	box-shadow:0 0 10px #000000;
 }
 .title{
 	width:40%;
@@ -22,11 +21,11 @@ box-sizing:border-box;
 	
 }
 h1{
-	 text-shadow:0 0 6px #f0f0f0;
+	text-shadow:0 0 6px #a0a0a0;
 	padding-top:4%;
 	padding-bottom:4%;
 	text-align:center;
-	color:#ffffff;
+	color:#000000;
 	font-family:"Courier New",monospace;
 	
 }
@@ -72,7 +71,8 @@ th,td{
 
 th{
 	color:#ffffff;
-	background-color:#cb6d51;
+	background-color:#196F3D;
+	/*#6f956c*/
 }
 th:nth-of-type(1),td:nth-of-type(1){
 	width:18rem;
@@ -83,9 +83,8 @@ tr:nth-of-type(odd){
 	color:#000000;
 }
 tr:nth-of-type(even){
-	background-color:#cb6d51;
-	color:#ffffff;
-	opacity:80%
+	background-color:#7DCEA0;
+	color:#000000;
 }
 
 td{
@@ -105,17 +104,19 @@ td:nth-of-type(2){
 /*Laptop*/
 @media only screen and (min-width:769px) and (max-width:1024px){
 	.wrapper{
-		width:80%;	
+
 	}
 }
 /*Tablet*/
 @media only screen and (max-width:481px) and (max-width:768px){
 	.wrapper{
-		width:100%;
+		width:90%;
 	}
 
 }
 /*Mobile*/
 @media only screen and (max-width:480px){
-	.
+	.wrapper{
+		width:100%;
+	}
 }
