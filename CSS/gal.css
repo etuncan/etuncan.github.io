@@ -150,7 +150,9 @@ h1{
 }
 /*Mobile*/
 @media only screen and (max-width:480px){
-#gallery{
-	width:80%;
-}
+	.wrapper{
+		width:100%;
+		height:auto;
+	}
+
 }

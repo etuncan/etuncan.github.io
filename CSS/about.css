@@ -46,88 +46,13 @@ ul{
 /*Tablet*/
 @media only screen and (max-width:481px) and (max-width:768px){
 
-	.wrapper{
-		width:60%;
-		margin-top:6%;
-		margin-left:auto;
-		margin-right:auto;
-	}
-	#statement{
-		margin-left:auto;
-		margin-right:auto;
-		border:2px solid black;
-		border-radius:10px;
-	}
-	#statement h2{
-		margin-top:0;
-		padding-top:0.5%;
-		padding-left:0.5%;
-		padding-bottom:0.5%;
-		background-color:black;
-		border-radius:5px;
-		color:#f0f0f0;
-	}
-	#statement p{
-		padding-left:3%;
-		padding-right:3%;
-	}
-
-	#left-col ul,#right-col ul{
-		list-style-type:none;
-		padding-left:5px;
-		
-	}
-	#left-col,#right-col{
-		width:40%;
-		height:;
-		margin-top:20px;
-		padding:10px 20px;
-		border:2px solid black;
-		border-radius:10px;
-		
-	}
 }
 /*Mobile*/
 @media only screen and (max-width:480px){
 
 	.wrapper{
-		width:60%;
-		margin-top:6%;
-		margin-left:auto;
-		margin-right:auto;
-	}
-	#statement{
-		margin-left:auto;
-		margin-right:auto;
-		border:2px solid black;
-		border-radius:10px;
-	}
-	#statement h2{
-		margin-top:0;
-		padding-top:0.5%;
-		padding-left:0.5%;
-		padding-bottom:0.5%;
-		background-color:black;
-		border-radius:5px;
-		color:#f0f0f0;
-	}
-	#statement p{
-		padding-left:3%;
-		padding-right:3%;
+		width:90%;
+		margin-top:4%;
 	}
 
-	#left-col ul,#right-col ul{
-		list-style-type:none;
-		padding-left:5px;
-		
-	}
-	#left-col,#right-col{
-		width:40%;
-		height:;
-		margin-top:20px;
-		padding:10px 20px;
-		border:2px solid black;
-		border-radius:10px;
-		
-	}
 }
