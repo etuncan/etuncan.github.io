@@ -23,10 +23,10 @@ html,body{
 }
 #nav li{
 	float:left;
-	padding-left:8px;
-	padding-right:8px;
-	padding-top:12px;
-	padding-bottom:12px;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	padding-top:0.75em;
+	padding-bottom:0.75em;
 }
 
 #nav li a{
@@ -40,7 +40,8 @@ html,body{
 #nav img{
 	float:left;
 	width:2em;
-	padding-top:0.4em;
+	padding-top:0.5em;
+	vertical-align:middle;
 }
 #nav li a:hover{
 	color:#808080;
@@ -53,14 +54,14 @@ html,body{
 /*External Media Links*/
 #nav .smlink{
 	float:right;
-	padding:2px 3px 2px 3px;
-	
+	padding-left:0.25em;
+	padding-right:0.25em;
 }
 
 #nav .smlink a img{
-	width:26px;
+	width:1.4em;
 	height:auto;
-	padding-top:auto;
+	padding:0;
 	vertical-align:middle;
 }
 #nav .smlink a:hover{
@@ -77,21 +78,21 @@ html,body{
 /*Mobile*/
 @media only screen and (max-width:480px){
 #nav li{
-	padding-left:4px;
-	padding-right:4px;
+	padding-left:0.25em;
+	padding-right:0.25em;
 }
 
 #nav li a{
 	font-size:1em;
 }
 #nav img{
-	width:2em;
-	padding-top:0.4em;
 }
 /*External Media Links*/
 
 #nav .smlink a img{
-	width:15px;
+	width:1em;
+		padding-left:0.1em;
+	padding-right:0.1em;
 }
 ]
 
