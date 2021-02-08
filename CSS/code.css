@@ -65,7 +65,7 @@ th{
 	background-color:#196F3D;
 	/*#6f956c*/
 }
-th:nth-of-type(1),td:nth-of-type(1){
+th:nth-of-type(1),tr:first-child{
 	width:18rem;
 }
 
@@ -130,7 +130,7 @@ td a{
 		padding-top:0.5rem;
 		font-size:0.8rem;
 	}
-	th:nth-of-type(1),td:nth-of-type(1){
+	th:nth-of-type(1),tr:first-child{
 		width:12rem;
 	}
 	td{

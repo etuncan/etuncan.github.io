@@ -77,24 +77,26 @@ html,body{
 }
 /*Mobile*/
 @media only screen and (max-width:480px){
-#nav img{
-	width:1em;
-	padding-top:0.25em;
-}
-#nav li{
-	padding-left:0.25em;
-	padding-right:0.25em;
-}
+	#nav img{
+		width:1.2em;
+		padding-top:0.75em;
+	}
+	#nav li{
+		padding-left:0.25em;
+		padding-right:0.25em;
+	}
 
-#nav li a{
-	font-size:1em;
-}
-/*External Media Links*/
-#nav .smlink{
-	padding-left:0.25em;
-	padding-right:0.25em;
-}
-#nav .smlink a img{
-	width:1em;
-}
+	#nav li a{
+		font-size:1em;
+	}
+	/*External Media Links*/
+	#nav .smlink{
+		padding-left:0.25em;
+		padding-right:0.25em;
+	}
+	#nav .smlink a img{
+		width:1em;
+		padding:0;
+		vertical-align:middle;
+	}
 }
