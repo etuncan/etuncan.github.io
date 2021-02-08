@@ -42,6 +42,8 @@ thead{
 	width:1rem;
 	height:1rem;
 	border:none;
+	margin:0;
+	padding:0;
 	float:right;
 }
 thead th:first-child{
@@ -101,13 +103,14 @@ td a{
 /*Mobile*/
 @media only screen and (max-width:480px){
 	.wrapper{
-		width:95%;
+		width:100%;
+		padding-left:4px;
+		padding-right:4px;
 	}
 
 	/*table for external code links and sorting*/
 	thead{
 		display:table-header-group;
-		vertical-align:middle;
 		border-color:inherit;
 		border-radius:8px;
 	}
@@ -124,16 +127,19 @@ td a{
 	}
 
 	th,td{
-		padding-left:0.5rem;
-		padding-right:0.5rem;
-		padding-bottom:0.5rem;
-		padding-top:0.5rem;
+		padding:0.5rem 0.25rem;
 		font-size:0.8rem;
 	}
-	th:nth-of-type(1),tr:first-child{
-		width:12rem;
+	th:nth-of-type(1),tbody tr:first-child{
+		width:auto;
+	}
+	th:nth-of-type(2),tr:nth-child(2){
+		width:6rem;
+	}
+	th:nth-of-type(2),tr:nth-child(2){
+		width:8rem;
 	}
 	td{
-		font-size:0.6rem;
+		font-size:0.75rem;
 	}
 }
