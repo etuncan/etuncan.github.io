@@ -77,6 +77,10 @@ html,body{
 }
 /*Mobile*/
 @media only screen and (max-width:480px){
+#nav img{
+	width:1em;
+	padding-top:0.25em;
+}
 #nav li{
 	padding-left:0.25em;
 	padding-right:0.25em;
@@ -85,15 +89,12 @@ html,body{
 #nav li a{
 	font-size:1em;
 }
-#nav img{
-}
 /*External Media Links*/
-
+#nav .smlink{
+	padding-left:0.25em;
+	padding-right:0.25em;
+}
 #nav .smlink a img{
 	width:1em;
-		padding-left:0.1em;
-	padding-right:0.1em;
 }
-]
-
 }
