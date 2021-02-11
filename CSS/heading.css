@@ -34,11 +34,10 @@ html,body{
 	text-decoration:none;
 	font-family:'Coda', cursive;
 }
-#nav img{
+#nav img:nth-of-type(1){
 	float:left;
 	height:2.6875rem;
 	margin:0.25rem 0;
-	
 }
 #nav li a:hover{
 	color:#808080;
@@ -56,6 +55,7 @@ html,body{
 }
 
 #nav .smlink a img{
+	display:block;
 	width:1.6875rem;
 	height:auto;
 	margin:0;
@@ -76,6 +76,7 @@ html,body{
 	#nav img:nth-of-type(1){
 		height:1.9375rem;
 		margin:0.25rem 0;
+		display:none;
 	}
 	#nav li{
 		padding:0.5rem 0.25rem;
