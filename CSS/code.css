@@ -115,9 +115,9 @@ td a{
 		border-radius:8px;
 	}
 	.sort{
-		background-size:0.8rem 0.8rem;
-		width:0.8rem;
-		height:0.8rem;
+		background-size:12px 12px;
+		width:12px;
+		height:12px;
 	}
 	thead th:first-child{
 	border-radius:8px 0 0 0;
@@ -127,19 +127,16 @@ td a{
 	}
 
 	th,td{
-		padding:0.5rem 0.25rem;
-		font-size:0.8rem;
-	}
-	th:nth-of-type(1),tbody tr:first-child{
-		width:auto;
+		padding:4px;
+		font-size:12px;
 	}
 	th:nth-of-type(2),tr:nth-child(2){
-		width:6rem;
+		min-width:49px;
 	}
-	th:nth-of-type(2),tr:nth-child(2){
-		width:8rem;
+	th:nth-of-type(3),tr:nth-child(3){
+		min-width:86px;
 	}
 	td{
-		font-size:0.75rem;
+		font-size:10px;
 	}
 }
