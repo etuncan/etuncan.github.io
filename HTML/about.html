@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="../CSS/heading.css">
 		<link rel="stylesheet" type="text/css" href="../CSS/about.css">
+		<link rel="icon" href="../Assets/favicon.png">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
 	</head>
@@ -30,34 +31,59 @@
 		
 		<div class="wrapper">
 			<!--*Site Explaination*-->
-			<section id="statement">
-				<h2>Mission Statement</h2>
-				<p>The purpose of this website is two-fold; to showcase the cohesive and "real world" application of 
-				knowledge pertaining to web-development and web-page coding/design. This is undertaken in several
-				parts. The first aspect, design, is meant to show the ability to provide a visually appealing, cohesive, clean,
-				and user friendly design. One that highlights the key aspects of each individual page while maintaining a common theme. 
-				
-				</p>
+			<section>
+				<figure>
+					<img src="../Assets/headshot.png" alt="headshot"/>
+					<figcaption>Erin Tuncan</figcaption>
+					<figcaption>Front-End Web Developer</figcaption>
+				</figure>
 			</section>
 			<section>
-				<h2>Updates</h2>
-				<h3>General</h3>
+				<h2>The Goal</h2>
+				<p>This website is meant to be a showcase, both of knowledge and skill. To present my abilities in a real-world example of site development and design. 
+				All to acquire a full-time position at a company where I can learn, grow, and advance. 
+				As time allows, this site will be added to and refined, to better represent my abilities.		
+				</p>
+			</section>
+			<section id="skill">
+				<h2>The Skills</h2>
 				<ul>
-					<li><b> Image Assets &#9472 </b>Small logo added to Navigation</li>
-				</ul>
-				<h3>Art</h3>
-				<ul>
-					<li><b>Image Assets &#9472 </b>Some Gallery placeholders replaced by temporary stock images</li>
-				</ul>
-				<h3>Code</h3>
-				<ul>
-					<li><b>Design &#9472 </b>Added color and styling to code table to draw attention more easily</li>
-				</ul>
-				<h3>Literature</h3>
-				<ul>
-					<li></li>
+					<li>High proficency with <b>HTML(5)</b> and <b>CSS</b> programming languages. That cummulate to over eight years of use.</li>
+					<li>Proficency with and affinity for (native)<b>JavaScript</b> for use in many and varried projects, including conjunctive use with the <i>HTML5</i> <b>Canvas</b> property.</li>
+					<li>Familiarity with <b>PHP</b> especially in use with <b>mySQLi</b>(a supplamental language for <b>SQL</b>)for server queries and accessing/creating databases.</li>
+				
 				</ul>
 			</section>
-		</div>			 
+			<section id="thenew">
+				<h2>The New</h2>
+				<p>The most recent updates have been centered around the integration of image assets and implementation of styling for mobile platforms.
+				The current iteration is optimized for use with Chrome and standard width laptops, with code that is supported across all browsers.
+				This is likely to change in future updates, with product testing on all browsers and equal levels of optimization for all current devices. 
+				</p>
+				<div id="listtitle">
+					<button onclick="showHide();"><img src="../Assets/button.png"/>Latest Updates</button>
+				</div>
+				<ul>
+					<li>A logo image has been added onto the navigation bar
+					for desktop, laptop, and tablets.</li>
+					<li>Styling added for mobile devices, 
+					based around the Samsung Galaxey S10e.</li>
+					<li>Restructered About page to current configuration.</li>
+					<li>Reformating gallery grid and expanded content.</li>
+				</ul>
+			</section>
+			<section id="thefuture">
+				<h2>The Future</h2>
+				<p id="quote"><q>Rivers know this: There is no hurry. 
+				We shall get there some day.</q>
+				<br>
+				—Winnie the Pooh
+				</p>
+				<p>The current plan for the future is to expand my knowledge of front=end development, as well
+				as beginning the process of learning back-end skills. This is in order to lay the ground work for a full-stack position. From there, the sight
+				is set on a senior position, or posibiliy to start the path towards an end goal of project lead or manager.</p>
+			</section>
+		</div>	
+		<script src="../JS/about.js"></script>
 	</body>
 </html>
