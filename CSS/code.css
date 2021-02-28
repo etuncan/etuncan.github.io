@@ -22,8 +22,7 @@ h1{
 	font-family:"Courier New",monospace;
 	border:2px solid #ffffff;
 	outline:4px solid #ffffff;
-	outline-offset:-10px;
-	
+	outline-offset:-10px;	
 }
 /*table for external code links and sorting*/
 table{
