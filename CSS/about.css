@@ -152,13 +152,14 @@ section li{
 
 	/*Main Body*/
 	.wrapper{
-		width:98%;
+		width:96%;
 		grid-template-columns:50% 50%;
 		grid-template-areas:none;
 		
 	}
 	figure{
 		max-width:100px;
+		margin-left:10px;
 	}
 	figcaption{
 		font-size:12px;
@@ -168,7 +169,7 @@ section li{
 	}	
 
 	section:nth-of-type(n+2){
-		padding-left:10px;
+		padding-left:0 ;
 	}
 	
 	section:nth-of-type(2n),section:nth-of-type(5){
