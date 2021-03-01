@@ -3,11 +3,8 @@ box-sizing:border-box;
 }
 /*Main Body*/
 .wrapper{
-	height:auto;
-	width:60%;
-	margin-top:3%;
-	margin-left:auto;
-	margin-right:auto;
+	width:70%;
+	margin:3% auto 0% auto;
 	padding-bottom:2%;
 }
 
@@ -41,15 +38,16 @@ thead{
 	border-radius:8px;
 }
 .sort{
-	background:url('../Assets/arrows.png');
-	background-repeat:no-repeat;
-	background-size:1rem 1rem;
 	width:1rem;
 	height:1rem;
 	border:none;
 	margin:0;
 	padding:0;
 	float:right;
+	background:url('../Assets/arrows.png');
+	background-repeat:no-repeat;
+	background-size:1rem 1rem;
+	
 }
 thead th:first-child{
 border-radius:8px 0 0 0;
@@ -57,28 +55,18 @@ border-radius:8px 0 0 0;
 thead th:last-child{
 border-radius:0 8px 0 0;
 }
-th,.type{
-text-align:left;
-padding:0.5rem;	
+th,td{
+	padding:6px 10px;
 }
 th{
+	text-align:left;
+	font-size:1rem;
 	color:#ffffff;
 	background-color:#2a2a2a;
-	/*#6f956c*/
-	font-size:1rem;
 }
 
 th:nth-of-type(1),.name{
-	width:16rem;
-}
-th:nth-of-type(2),.type{
-	width:5rem;
-}
-th:nth-of-type(3),.lang{
-	width:6rem;
-}
-.name a,.type,.lang,.date{
-	padding-left:0.5rem;
+	padding-right:0;
 }
 .type{
 	font-size:0.75rem;
@@ -121,42 +109,39 @@ td a{
 /*Mobile*/
 @media only screen and (max-width:480px){
 	.wrapper{
-		width:100%;
-		padding-left:8px;
-		padding-right:8px;
+		width:96%;
 	}
-
+	h1{
+		width:180px;
+		padding:10px 0;
+		border:1px solid #ffffff;
+		outline:2px solid #ffffff;
+		outline-offset:-5px;
+		
+	}
+	
 	/*table for external code links and sorting*/
-	thead{
-		display:table-header-group;
-		border-color:inherit;
-		border-radius:8px;
-	}
 	.sort{
-		background-size:12px 12px;
 		width:12px;
 		height:12px;
+		background-size:12px 12px;
 	}
-	thead th:first-child{
-	border-radius:8px 0 0 0;
-	}
-	thead th:last-child{
-	border-radius:0 8px 0 0;
-	}
-
 	th,td{
-		padding:4px;
+		padding:4px 6px;
 	}
 	th{
 		font-size:12px;
 	}
-	th:nth-of-type(2),tr:nth-child(2){
+	.type{
+		font-size:8px;
+	}
+	/*th:nth-of-type(2),tr:nth-child(2){
 		min-width:49px;
 	}
 	th:nth-of-type(3),tr:nth-child(3){
 		min-width:86px;
-	}
+	}*/
 	td{
-		font-size:9px;
+		font-size:10px;
 	}
 }
