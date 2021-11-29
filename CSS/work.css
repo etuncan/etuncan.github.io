@@ -16,21 +16,6 @@
 	height:auto;
 
 }
-.trail{
-	padding:15px 0px 0px 25px;
-	font-size:0.85rem;
-	font-family:"Roboto",sans-serif;
-	font-weight:700;
-}
-.trail a{
-	text-decoration:none;
-	padding-right:1px;
-	color:#000000;
-}
-.trail span{
-	padding-left:1px;
-	color:#d35400;
-}
 .portals{
 	margin-top:25%;
 	margin-left:auto;
