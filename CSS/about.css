@@ -175,7 +175,7 @@ footer{
 		max-width:200px;
 	}
 	section:nth-of-type(2),section:nth-of-type(3){
-		margin-top:90px;
+		margin-top:50px;
 	}
 	section:nth-of-type(2){
 		max-width:400px;
@@ -209,6 +209,7 @@ footer{
 	
 	figure{
 		max-width:100px;
+		margin-left:10px;
 	}
 	
 	figcaption{
@@ -218,50 +219,7 @@ footer{
 	figcaption:nth-of-type(2){
 		font-size:11px;
 	}	
-	
 	section:nth-of-type(n+2){
 		padding-left:20px;
 	}
-	
-	section:nth-of-type(2n),section:nth-of-type(5){
-		grid-column-start:1;
-		grid-column-end:3;
-	}
-	
-	section:nth-of-type(1){
-		margin-top:30px;
-		max-width:200px;
-		grid-column-start:1;
-		grid-column-end:2;	
-	}
-	
-	section:nth-of-type(2){
-		margin-top:0;
-	}
-	
-	section:nth-of-type(3){
-		margin-top:0;
-		grid-column-start:1;
-		grid-column-end:3;
-	}
-	section:nth-of-type(5){
-		margin-bottom:15%;
-	}
-	#listtitle button{
-		padding:2px 2px;
-		border-top:1px solid black;
-		border-bottom:1px solid black;
-		font-size:12px;
-	}
-	#listtitle button img{
-		width:6px;
-		margin-right:2px;
-	}
-	section li{
-		font-size:12px;
-		margin-bottom:6px;
-	}
-	#quote{
-		font-size:13px;
-	}
-}
+
