@@ -3,22 +3,23 @@ box-sizing:border-box;
 }
 /*Main Body*/
 .wrapper{
-	height:80%;
 	margin-top:2%;
+	padding-bottom:2.5rem;
 	text-align:center;
+
 }
 
 #mainlogo img{
 	display:block;
-	max-width:300px;
+	max-width:375px;
 }
 #mainlogo img,#logomenu,#logomenu a img{
 	margin-left:auto;
 	margin-right:auto;	
 }
 #logomenu{
-	max-width:500px;
-	margin-top:2%;
+	margin-top:0.5%;
+	margin-bottom:4%;
 }
 #logomenu a{
 	display:inline-block;	
@@ -29,23 +30,28 @@ box-sizing:border-box;
 	height:50px;
 	width:auto;
 }
-#logomenu img:nth-of-type(1){
-	margin-left:1px;
-}
-#logomenu img:nth-of-type(2){
-	margin-right:1px;
-}
+
 #logomenu a img{
 	margin-top:5px;
 	margin-bottom:5px;
 	height:45px;
 	width:auto;
 }
-
+#logomenu a img:hover{
+	opacity:0.6;
+}
+footer{
+	position:absolute;
+	bottom:0;
+	height:2.5rem;
+	width:100%;
+	background-color:;
+	text-align:center;
+	font-size:0.8rem;
+}
 /*Laptop*/
 @media only screen and (min-width:769px) and (max-width:1024px){
 	.wrapper{
-		height:80%;
 		margin-top:2%;
 		text-align:center;
 	}
@@ -57,18 +63,20 @@ box-sizing:border-box;
 		margin-right:auto;
 	}
 	#logomenu{
-		margin-top:1%;
 		margin-bottom:1%;
 		margin-left:auto;
 		margin-right:auto;
 
+	}
+	#logomenu img{
+		max-height:40px;
 	}
 	#logomenu a{
 		display:inline-block;
 		text-decoration:none;
 	}
 	#logomenu a img{
-		max-height:45px;
+		max-height:35px;
 	}
 }
 /*Tablet*/
