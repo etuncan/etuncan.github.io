@@ -1,22 +1,18 @@
-var butt=document.getElementById("listtitle").firstElementChild;
-	//gets button as variable
-var content=document.getElementById("thenew").lastElementChild;
-	//gets ul as variable
-	function showHide(){
+
+	function toggleList(a){
+		//console.log(a);
+		let buttnimg=a.firstElementChild;
+		let content=a.nextElementSibling;
+		//content pathing:button->ul
 		if(content.style.display!=="block"){
-			console.log("hi");
-			butt.firstElementChild.style.transform="rotate(90deg)";
+			//console.log("pass");
+			buttnimg.style.transform="rotate(90deg)";
 			content.style.display="block";
-			butt.style.borderBottomColor="grey";
-			content.style.borderBottom="2px solid #000000";
 		}
 		else if(content.style.display==="block"){
-			console.log("fail");
-			butt.firstElementChild.style.transform="rotate(0deg)";
+			//console.log("fail");
+			buttnimg.style.transform="rotate(0deg)";
 			content.style.display="none";
-			butt.style.borderBottom="2px solid #000000";
-			content.style.borderBottom="none";
-			
 			
 		}
 	}
