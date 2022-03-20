@@ -7,15 +7,14 @@ html,body{
 	padding:0;
 	background-color:#f5f5f5;
 	font-family:Arial,Helvetica,sans-serif;
-}
-html{
 	width:100%;
+	height:100%;
+	overflow:auto;
 }
 #container{
 	position:relative;
-	min-height:100vh;
-	width:100%;
 }
+
 /*Navigation*/
 #nav ul{
 	overflow:hidden;
@@ -35,14 +34,14 @@ html{
 	display:block;
 	text-align:center;
 	color:#f1f1f1;
-	font-size:1.2rem;
+	font-size:1.25rem;
 	text-decoration:none;
 	font-family:'Coda', cursive;
 }
 #nav img:nth-of-type(1){
 	float:left;
 	height:2.6875rem;
-	margin:0.25rem 0;
+	margin:0.3125rem 0;
 }
 #nav li a:hover{
 	color:#808080;
@@ -55,12 +54,12 @@ html{
 /*External Media Links*/
 #nav .smlink{
 	float:right;
-	padding:0.95rem 0.25rem;
+	padding:0.9375rem 0.25rem;
 }
 
 #nav .smlink a img{
 	display:block;
-	width:1.2875rem;
+	width:1.4375rem;/*23px*/
 	height:auto;
 	margin:0;
 }
@@ -68,31 +67,49 @@ html{
 	opacity:80%;
 	cursor:pointer;
 }
+
+.trail{
+	margin:12px 0 0 5%; 
+	font-size:0.875rem;
+	font-family:"Roboto",sans-serif;
+	font-weight:700;
+}
+.trail a{
+	text-decoration:none;
+	padding-right:1px;
+	color:#d35400;
+}
+.trail span{
+	padding-left:1px;
+	color:#000;
+}
+
 /*Laptop*/
 @media only screen and (min-width:769px) and (max-width:1024px){
 }
 /*Tablet*/
-@media only screen and (max-width:481px) and (max-width:768px){
+@media only screen and (min-width:481px) and (max-width:768px){
 
 }
 /*Mobile*/
 @media only screen and (max-width:480px){
+	/* nav height = 2.4375rem*/
 	#nav img:nth-of-type(1){
-
 		display:none;
 	}
 	#nav li{
-		padding:8px 4px;
+		padding:0.5rem 0.25rem;
 	}
 
 	#nav li a{
-		font-size:16px;
+		font-size:1rem;
 	}
 	/*External Media Links*/
 	#nav .smlink{
-		padding:10px 3px;
+		padding:0.625rem 0.25rem;
 	}
 	#nav .smlink a img{
-		width:19px;
+		height:1.1875rem;
+		width:1.1875rem;
 	}
 }
