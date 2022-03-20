@@ -1,6 +1,5 @@
 var modal=document.getElementById("myModal");
 var modalImage=document.getElementById("modalImage");
-
 var active=document.getElementsByClassName("active");
 var prev=document.getElementById("prev");
 var next=document.getElementById("next");

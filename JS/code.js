@@ -11,7 +11,7 @@ function listen(){
 listen();
 function foo(){
 	
-	if(this.id==="iconhead"){
+	if(this.id==="langhead"){
 
 	}
 	else if(this.id==="namehead"){
