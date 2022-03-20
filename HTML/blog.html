@@ -9,6 +9,8 @@
 		<link rel="icon" href="../Assets/favicon.png">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<div id="container">
@@ -29,84 +31,60 @@
 				</div>
 			</header>
 			
+				<h1>Blog</h1>
+				
 			<div class="wrapper">
-				<article id="main_article">
-					<div id="searchbar">
-						<label for="">Search by</label>
-						
-						<select id="search_type" onchange="typeChange()">
-							<option value="name" selected>Name</option>
-							<option value="time">Date</option>
-						</select>
-						
-						<input type="text" id="search_input" onkeyup="searchFor()" placeholder="Search...">
-					</div>
-					<article class="blogpost">
-						<section class="bp_title">
-							<span>My Design Process</span>
-							<time datetime="2021-03-31 20:00">03-31-2021 20:00</time>
-						</section>
-						
-						<section class="bp_content">
-							<p>My design process starts with a pictoral wireframe sketch on paper. 
-							The next step is making a list of the major methods and functions that fulfill all the necessary processes. 
-							</p>
-						</section>
-					</article>
-					<article class="blogpost">
-						<section class="bp_title">
-							<span>My Design Process</span>
-							<time datetime="2021-03-31 20:00">03-31-2021 20:00</time>
-						</section>
-						
-						<section class="bp_content">
-							<p>My design process starts with a pictoral wireframe sketch on paper. 
-							The next step is making a list of the major methods and functions that fulfill all the necessary processes. 
-							</p>
-						</section>
-					</article>
-					<article class="blogpost">
-						<section class="bp_title">
-							<span>My Design Process</span>
-							<time datetime="2021-03-31 20:00">03-31-2021 20:00</time>
-						</section>
-						
-						<section class="bp_content">
-							<p>My design process starts with a pictoral wireframe sketch on paper. 
-							The next step is making a list of the major methods and functions that fulfill all the necessary processes. 
-							</p>
-						</section>
-					</article>
-					
-					<article class="blogpost">
-						<section class="bp_title">
-							<span>My Design Process</span>
-							<time datetime="2021-03-31 20:00">03-31-2021 20:00</time>
-						</section>
-						
-						<section class="bp_content">
-							<p>My design process starts with a pictoral wireframe sketch on paper. 
-							The next step is making a list of the major methods and functions that fulfill all the necessary processes. 
-							</p>
-						</section>
-					</article>
-					
-					<article class="blogpost">
-						<section class="bp_title">
-							<span>NEW FEATURE!! A wild Blog has appeared!</span>
-							<time>01-21-2021 08:46</time>
-						</section>
-						
-						<section class="bp_content">
-							<p>Welcome, to a new section of the <b>Kit &amp Crow Creations</b> website. 
-							This blog will be used to discuss several topics: design philosophy, development process, an in-depth look at updates, and more. 
-							It is a great opportunity to share my thoughts and personal work process with others; over a period of time, and hopefully, growth. 					
-							I plan to keep this consistently updated: once a week or so to start with. 
-							I look forward to sharing this experience with all of you!</p>
-						</section>
-					</article>
-					
+
+				<div id="searchbar">
+					<select onchange="typeChange()">
+						<option value="name" selected>Name</option>
+						<option value="time">Date</option>
+					</select>
+					<input type="text" onkeyup="searchFor()" placeholder="Search...">
+				</div>
+				
+				<article class="blogpost">
+					<h3>Color Palettes</h3>
+					<section class="subhead">
+						<span>By:Erin Tuncan | Posted:</span>
+						<time>03-04-2022</time>
+					</section>
+					<p class="content">
+						The importance of a well-planned color palette can not be overstated. 
+						I try to always stick to three to five colors per palette: 
+						a primary, secondary, and one to three tertiaries.   
+					</p>
 				</article>
+				
+				<article class="blogpost">
+					<h3>My Design Process</h3>
+					<section class="subhead">	
+						<span>By:Erin Tuncan | Posted:</span>
+						<time datetime="2021-03-31 20:00">03-31-2021</time>
+					</section>
+					<p class="content">
+						My design process starts with a pictoral wireframe sketch on paper. 
+						The next step is making a list of the major methods and 
+						functions that fulfill all the necessary processes... 
+					</p>
+				</article>
+				
+				<article class="blogpost">
+					<h3>A New Feature! A Blog has appeared!</h3>
+					<section class="subhead">
+						<span>By:Erin Tuncan | Posted:</span>
+						<time>01-21-2021</time>
+					</section>
+					
+					<p class="content">
+						Welcome, to a new section of the <b>Kit &amp Crow Creations</b> website. 
+						This blog will be used to discuss several topics: design philosophy, development process, an in-depth look at updates, and more. 
+						It is a great opportunity to share my thoughts and personal work process with others; over a period of time, and hopefully, growth. 					
+						I plan to keep this consistently updated: once a week or so to start with. 
+						I look forward to sharing this experience with all of you!
+					</p>
+				</article>
+				
 			</div>
 			
 			<footer>
