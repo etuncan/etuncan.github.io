@@ -7,30 +7,15 @@ box-sizing:border-box;
 	margin:3% auto 0% auto;
 	padding-bottom:2%;
 }
-	/*Trail*/
-.trail{
-	padding:15px 0px 0px 25px;
-	font-size:0.8rem;
-	font-family:"Roboto",sans-serif;
-	font-weight:700;
-}
-.trail a{
-	text-decoration:none;
-	padding-right:1px;
-	color:#000000;
-}
-.trail span{
-	padding-left:1px;
-	color:#d35400;
-}
+
 h1{
 	width:350px;
 	border-bottom:4px solid #2a2a2a;
-	margin:10% auto 6% auto;
+	margin:3% auto 6% auto;
 	padding:15px 0;
 	text-align:center;
 	color:#000000;
-	font-family:"Courier New",monospace;
+	font-family:"Roboto",sans-serif; /*"Courier New",monospace;*/
 	
 }
 /*table for external code links and sorting*/
