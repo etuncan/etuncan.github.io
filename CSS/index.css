@@ -3,98 +3,136 @@ box-sizing:border-box;
 }
 /*Main Body*/
 .wrapper{
-	margin-top:2%;
+	position:relative;
 	padding-bottom:2.5rem;
+	height:calc(100vh - 3.3125rem);
+	width:100%;
+	overflow:hidden;
 	text-align:center;
-
 }
-
+#mainlogo{
+	background:url("../Assets/background_1.png") no-repeat  50% 50%;
+	margin-top:calc(50vh - calc(280px + calc(3.3125rem - 2.5rem)) );/*50%-(mainlogo img height/2+40)*/
+}
 #mainlogo img{
 	display:block;
-	max-width:375px;
+	width:390px; /*height=480px*/
 }
 #mainlogo img,#logomenu,#logomenu a img{
 	margin-left:auto;
 	margin-right:auto;	
 }
 #logomenu{
-	margin-top:0.5%;
-	margin-bottom:4%;
+	background:url("../Assets/test61.png") no-repeat center;
+	background-size:contain;
+	position:absolute;
+	top:calc(50vh + 55px);
+	width:100%;
+	text-align:center;
+	z-index:1;
+}
+#logomenu a,#logomenu img{
+	height:40px;
+	width:auto;
 }
 #logomenu a{
-	display:inline-block;	
-	height:50px;
-	width:auto;
+	display:inline-block;
 }
-#logomenu img{
-	height:50px;
+#logomenu a img{
+	height:36px;
 	width:auto;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+#logomenu a img:last-child{
+	display:none;
+}
+#logomenu a:hover img:first-child{
+	display:none;
+}
+#logomenu a:hover img:last-child{
+	display:block;
 }
 
-#logomenu a img{
-	margin-top:5px;
-	margin-bottom:5px;
-	height:45px;
-	width:auto;
-}
-#logomenu a img:hover{
-	opacity:0.6;
-}
 footer{
 	position:absolute;
 	bottom:0;
 	height:2.5rem;
 	width:100%;
-	background-color:;
 	text-align:center;
-	font-size:0.8rem;
+	font-size:0.75rem;
 }
+
 /*Laptop*/
 @media only screen and (min-width:769px) and (max-width:1024px){
-	.wrapper{
-		margin-top:2%;
-		text-align:center;
+	#mainlogo{
+		margin-top:calc(50vh - calc(232px + calc(3.3125rem - 2.5rem)));
+		background-size:contain;
 	}
-
 	#mainlogo img{
-		display:block;
-		max-width:300px;
-		margin-left:auto;
-		margin-right:auto;
+		max-width:377px;
 	}
+	
 	#logomenu{
-		margin-bottom:1%;
-		margin-left:auto;
-		margin-right:auto;
-
+		top:calc(50vh + 90px);
 	}
-	#logomenu img{
-		max-height:40px;
-	}
-	#logomenu a{
-		display:inline-block;
-		text-decoration:none;
+	#logomenu a,#logomenu img{
+		height:36px;
+		width:auto;
 	}
 	#logomenu a img{
-		max-height:35px;
+		height:32px;
+		width:auto;
 	}
 }
 /*Tablet*/
-@media only screen and (max-width:481px) and (max-width:768px){
+@media only screen and (min-width:481px) and (max-width:768px){
 	/*Main Body*/
-
+	#mainlogo{
+		margin-top:calc(50vh - calc(216px + calc(3.3125rem - 2.5rem)));
+		background-size:contain;
+	}
+	#mainlogo img{
+		width:351px;
+	}
+	
+	#logomenu{
+		top:calc(50vh + 85px);
+		
+	}
+	#logomenu a,#logomenu img{
+		height:32px;
+		width:auto;
+	}
+	#logomenu a img{
+		height:28px;
+		width:auto;
+	}
 
 }
 /*Mobile*/
 @media only screen and (max-width:480px){
 	/*Main Body*/
-	#mainlogo img{
-		max-width:250px;
+	.wrapper{
+		height:calc(100vh - 2.4375rem);
 	}
 	#mainlogo{
-		margin-top:6%;
+		margin-top:calc(50vh - calc(216px + calc(2.4375rem - 2.5rem)));
+	}
+	#mainlogo img{
+		max-width:325px;
+	}
+	
+	#logomenu{
+		top:calc(50vh + 75px);
+	}
+	#logomenu a,#logomenu img{
+		height:28px;
+		width:auto;
 	}
 	#logomenu a img{
-		max-height:40px;
+		height:24px;
+		width:auto;
 	}
+	
 }
