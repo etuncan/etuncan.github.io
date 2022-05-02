@@ -1,7 +1,10 @@
+body{
+	background-color:#434343;
+}
 a{
 	text-decoration:none;	
 }
-.showcase{	
+.gridbox{	
 	margin-left:auto;
 	margin-right:auto;
 	width:60%;
@@ -31,40 +34,43 @@ a{
 }
 .portals span{
 	display:block;
-	font-size:30px;
+	font-size:2rem;
 	font-family:'Coda',cursive;
-	font-weight:800;
+	font-weight:700;
 	text-align:center;
-	color:#0a0a0a
+	color:#eee;
 }
 
 /*Laptop*/
 @media only screen and (min-width:769px) and (max-width:1024px){
+	.gridbox{	
+	width:70%;
+	}
+	.portals span{
+		font-size:1.75rem;
+	}
 }
 /*Tablet*/
 @media only screen and (min-width:481px) and (max-width:768px){
-
+	.gridbox{	
+		width:80%;
+		grid-template-columns:1fr 1fr 1fr;
+	}
+	.portals span{
+		font-size:1.5rem;
+	}
 }
 /*Mobile*/
 @media only screen and (max-width:480px){
-	/* nav height = 2.4375rem*/
-	#nav img:nth-of-type(1){
-		display:none;
+	.gridbox{	
+		width:100%;
+		grid-template-columns:1fr 1fr;
 	}
-	#nav li{
-		padding:0.5rem 0.25rem;
+	.portals{
+		width:80%;
 	}
-
-	#nav li a{
-		font-size:1rem;
-	}
-	/*External Media Links*/
-	#nav .smlink{
-		padding:0.625rem 0.25rem;
-	}
-	#nav .smlink a img{
-		height:1.1875rem;
-		width:1.1875rem;
+	.portals span{
+		font-size:1.25rem;
 	}
 }
 

@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family:'norsebold';
+    src: url('../Assets/Fonts/norsebold-webfont.woff2') format('woff2'),
+         url('../Assets/Fonts/norsebold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dalek_pinpointbold';
+    src: url('../Assets/Fonts/dalekpinpointbold-webfont.woff2') format('woff2'),
+         url('../Assets/Fonts/dalekpinpointbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
