@@ -1,77 +1,113 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Kit & Crow Creations/Works/Projects/Sudoku</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preload" as="style" type="text/css" href="../CSS/fonts.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">	
+		<link rel="stylesheet" type="text/css" href="../CSS/heading.css">
 		<link rel="stylesheet" type="text/css" href="../CSS/sudoku.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/fonts.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coda&display=swap">
+		<link rel="icon" href="../Assets/favicon.png">
 		
 	</head>
 	<body>
-		<h1>Sudoku</h1>
-		<table>
-			<!--Row A-->
-			<tr>
-				<td></td> <td></td> <td></td> 
-				<td></td> <td></td> <td></td>
-				<td></td> <td></td> <td></td>
-			</tr>
+		<div id="container">
+			<header>	
+				<!--*Navigation*-->
+				<div id="nav">
+					<ul>
+						<img src="../Assets/icon-logo3.svg"/>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="work.html" class="current">Works</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="about.html">About</a></li>
+						<!--*External Media Links*-->
+						<li class="smlink"><a href="#"><img title="Facebook" src="../Assets/icon-facebook.png"/></a></li>
+						<li class="smlink"><a href="https://github.com/etuncan/Porfolio2.0" target="_blank" rel="noopener noreferrer"><img title="GitHub" src="../Assets/icon-github.png"/></a></li>
+						<li class="smlink"><a href="https://www.linkedin.com/in/erin-tuncan-609930109/"><img title="Linkedin" src="../Assets/icon-linkedin.png"/></a></li>
+					</ul>				
+				</div>
+			</header>
 			
-			<!--Row B-->
-			<tr>
-				<td></td> <td></td> <td></td> 
-				<td></td> <td></td> <td></td>
-				<td></td> <td></td> <td></td>
-			</tr>
+			<div class="trail">
+				<a href="work.html">Works</a>/<a href="project.html">Projects</a>/<span>Sudoku</span>
+			</div>
 			
-			<!--Row C-->
-			<tr>
-				<td></td> <td></td> <td></td> 
-				<td></td> <td></td> <td></td>
-				<td></td> <td></td> <td></td>
-			</tr>
+			<div class="flexbox"><h1>&#183; Sudoku &#183;</h1></div>
 			
-			<!--Row D-->
-			<tr>
-				<td></td> <td></td> <td></td> 
-				<td></td> <td></td> <td></td>
-				<td></td> <td></td> <td></td>
-			</tr>
-			
-			<!--Row E-->
-			<tr>
-				<td></td> <td></td> <td></td> 
-				<td></td> <td></td> <td></td>
-				<td></td> <td></td> <td></td>
-			</tr>
-			
-			<!--Row F-->
-			<tr>
-				<td></td> <td></td> <td></td> 
-				<td></td> <td></td> <td></td>
-				<td></td> <td></td> <td></td>
-			</tr>
-			
-			<!--Row G-->
-			<tr>
-				<td></td> <td></td> <td></td> 
-				<td></td> <td></td> <td></td>
-				<td></td> <td></td> <td></td>
-			</tr>
-			
-			<!--Row H-->
-			<tr>
-				<td></td> <td></td> <td></td> 
-				<td></td> <td></td> <td></td>
-				<td></td> <td></td> <td></td>
-			</tr>
-			
-			<!--Row I-->
-			<tr>
-				<td></td> <td></td> <td></td> 
-				<td></td> <td></td> <td></td>
-				<td></td> <td></td> <td></td>
-			</tr>
-			
-		</table>
-		<p><button onclick="Driver()">New Puzzle</button></p>
+			<div class="wrapper">
+				<table>
+					<!--Row A-->
+					<tr>
+						<td></td> <td></td> <td></td> 
+						<td></td> <td></td> <td></td>
+						<td></td> <td></td> <td></td>
+					</tr>
+					
+					<!--Row B-->
+					<tr>
+						<td></td> <td></td> <td></td> 
+						<td></td> <td></td> <td></td>
+						<td></td> <td></td> <td></td>
+					</tr>
+					
+					<!--Row C-->
+					<tr>
+						<td></td> <td></td> <td></td> 
+						<td></td> <td></td> <td></td>
+						<td></td> <td></td> <td></td>
+					</tr>
+					
+					<!--Row D-->
+					<tr>
+						<td></td> <td></td> <td></td> 
+						<td></td> <td></td> <td></td>
+						<td></td> <td></td> <td></td>
+					</tr>
+					
+					<!--Row E-->
+					<tr>
+						<td></td> <td></td> <td></td> 
+						<td></td> <td></td> <td></td>
+						<td></td> <td></td> <td></td>
+					</tr>
+					
+					<!--Row F-->
+					<tr>
+						<td></td> <td></td> <td></td> 
+						<td></td> <td></td> <td></td>
+						<td></td> <td></td> <td></td>
+					</tr>
+					
+					<!--Row G-->
+					<tr>
+						<td></td> <td></td> <td></td> 
+						<td></td> <td></td> <td></td>
+						<td></td> <td></td> <td></td>
+					</tr>
+					
+					<!--Row H-->
+					<tr>
+						<td></td> <td></td> <td></td> 
+						<td></td> <td></td> <td></td>
+						<td></td> <td></td> <td></td>
+					</tr>
+					
+					<!--Row I-->
+					<tr>
+						<td></td> <td></td> <td></td> 
+						<td></td> <td></td> <td></td>
+						<td></td> <td></td> <td></td>
+					</tr>
+					
+				</table>
+				<button onclick="Driver()">New Puzzle</button>
+			</div>
+		</div>
 		<script type="text/javascript" src="../JS/sudoku_beta4.js"></script>
 	</body>
 </html>
