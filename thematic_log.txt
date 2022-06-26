@@ -1,0 +1,27 @@
+-All Colors-
+Blacks:#00000,#131313,2a2a2a;
+Greys:#c2c2c2,#434343;#f1f1f1;
+Whites:#ffffff,#f5f5f5;
+Gold:#c3922e;
+Orange:#d35400,#d53400;
+
+-Backgrounds-
+
+Body:#434343;||alt:#f5f5f5;
+Navigation:#131313;||alt:#000;
+Div:N/A;||alt:#f5f5f5;||alt:#434343;
+thead:#2a2a2a;
+tbody:#fff;||alt:#f1f1f1;||alt:#c2c2c2;
+
+-Font Colors-
+
+h1:#c3922e;
+h2:#ffffff;||alt:#000000;||alt:#d35400;
+h3:#c3922e;
+h4:#d35400;
+h5:#ffffff;
+a:#ffffff;||alt:#d35400;
+
+-Font Families-
+
+-Font Size-

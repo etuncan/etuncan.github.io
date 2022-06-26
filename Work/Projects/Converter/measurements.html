@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kit&amp;Crow Creations/Works/Projects/Sudoku</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preload" as="style" type="text/css" href="../../../files_gen/fonts.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">	
+		<link rel="stylesheet" type="text/css" href="../../../files_gen/general.css">
+		<link rel="stylesheet" type="text/css" href="./measurements.css">
+		<link rel="stylesheet" type="text/css" href="../../../files_gen/fonts.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" >
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coda&display=swap">
+		<link rel="icon" href="../../../images_gen/favicon.png">
+	</head>
+	<body>
+		<div id="container">
+			<div id="project-nav">
+				<a id="back-button" href="../project.html">&#10094;&#32;Back</a>
+			</div>
+					
+			<div class="wrapper">
+				<div id="main-heading">
+					<h1>Conversion Calculator</h1>
+					<h3>Imperial&#32;&#8652;&#32;Metric&#32;<small>(length)</small></h3>
+				</div>
+				<div id="main-flex-box">
+
+					<select type="list" id="type1"  name="type1">
+						<option value="in">Inch</option>
+						<option value="ft">Feet</option>
+						<option value="yd">Yard</option>
+						<option value="ml">Mile</option>
+						<option value="mm">Milimeter</option>
+						<option value="cm">Centimeter</option>
+						<option value="dm">Decimeter</option>
+						<option value="mt">Meter</option>
+						<option value="dam">Decameter</option>
+						<option value="hm">Hectometer</option>
+						<option value="km">Kilometer</option>
+					</select>
+					
+					<input type="number" id="userdata" oninput="myCompute(this)" required>
+					<span id="static-icon">&#32;=&#32;</span>
+					<span id="output"></span>
+					
+					<select type="list" id="type2" name="type2">
+						<option value="in">Inch</option>
+						<option value="ft">Feet</option>
+						<option value="yd">Yard</option>
+						<option value="ml">Mile</option>
+						<option value="mm">Milimeter</option>
+						<option value="cm">Centimeter</option>
+						<option value="dm">Decimeter</option>
+						<option value="mt">Meter</option>
+						<option value="dam">Decameter</option>
+						<option value="hm">Hectometer</option>
+						<option value="km">Kilometer</option>
+					</select>
+				</div>	
+			</div>	
+		</div>
+		<script src="./measurements.js"></script>
+	</body>
+</html>
