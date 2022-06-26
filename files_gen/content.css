@@ -1,0 +1,39 @@
+/*General content styling*/
+p,span{
+	line-height:1.25;
+	margin:0;
+}
+.w-content-1{
+	margin:0.5rem 0 1.25rem 0;
+	padding:0;
+}
+.w-content-2{
+	margin:0.5rem 0 0.5rem 0;
+	padding:0;
+}
+.w-content-1 p,.w-content-2 p{
+	margin:0;	
+	font-family:'Roboto';
+	font-weight:400;
+	font-size:inherit;
+}
+.w-content-1 p{
+	padding: 0.25rem 0.75rem;
+}
+.w-content-2 p{
+	padding:0.5rem 1.25rem;
+}
+.w-content-1 a,.w-content-2 a{
+	color:#d35400;
+}
+.list-wrapper-1{
+	margin:0.5rem 0 0 0;
+	padding:0;
+}
+aside section{
+	padding-left:0.75rem;
+	padding-right:0.75rem;
+}
+aside li{
+	padding:0.5rem 0.5rem;
+}
