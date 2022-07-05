@@ -1,0 +1,128 @@
+/*Main Body*/
+
+/**Id**/	
+#searchbar{
+	display:flex;
+	width:100%;
+	max-width:640px;
+	margin-left:auto;
+	margin-right:auto;
+	flex:1;
+	font-size:0.875rem;
+	height:1.25rem;
+	line-height:1.25rem;
+	text-align:right;
+}
+#searchbar:before{
+	content:'';
+	flex:1;
+}
+#searchbar select,#searchbar input{
+	font-size:0.875rem;
+	font-family:'roboto',sans-serif;
+}
+#searchbar select{
+	visibility:visible;
+	padding:0;
+	background-color:inherit;
+	outline:none;	
+	border-top:0;
+	border-bottom:0;
+	border-left:0;
+	border-right:0;	
+	line-height:inherit;
+	color:#757575;	
+	cursor:pointer;
+}
+#searchbar input{
+	visibility:visible;
+	margin-left:0.25em;
+	padding:0;
+	background-color:inherit;
+	outline:none;
+	border:none;
+	border-bottom:1px solid #757575;
+	line-height:inherit;
+	color:#fff;
+	text-indent:0.25rem;
+}
+#searchbar svg{
+	fill:#757575;
+	border:none;
+	border-radius:3px;
+}
+/**Class**/
+.wrapper-2{
+	margin:3vh auto 0 auto;
+}
+.blogpost{
+	max-width:640px;
+	margin:2em auto;
+	background-color:#f5f5f5;
+	border:0.225em solid #c3922e;	
+	border-radius:0.5rem;
+	box-shadow:0 0.75rem 0 0.25rem #222;
+}
+.blogpost:last-of-type{
+	margin-bottom:4rem;
+}
+.blogpost time{
+	display:block;
+	margin:0; 
+	font-family:'Roboto Mono',monospace;
+	font-size:0.875rem;
+	font-weight:400;
+	color:#757575;
+	text-align:right;
+}
+.blogpost h3{
+	margin:0.25rem 0;
+	font-size:1.25rem;
+	font-weight:700;
+	color:#434343;
+	letter-spacing:0.1em;
+	text-transform:uppercase;
+	border-bottom:1px solid #ccc;
+}
+/**Element**/
+
+
+/*Laptop*/
+@media only screen and (min-width:769px) and (max-width:1024px){
+	.wrapper-2{
+		width:85%;
+	}
+	#searchbar:after{
+		flex:0.5;
+	}
+	.blogpost{
+		max-width:600px;
+	}
+}
+/*Tablet*/
+@media only screen and (min-width:481px) and (max-width:768px){
+	.wrapper-2{
+		width:80%;
+	}
+	#searchbar:after{
+		content:'';
+		flex:0.3;
+	}	
+	.blogpost{
+		max-width:500px;
+	}
+	
+}
+/*Mobile*/
+@media only screen and (max-width:480px){
+	.wrapper-2{
+		width:90%;
+	}
+
+	#searchbar:after{
+		flex:0;
+	}
+	.blogpost{
+		max-width:400px;
+	}
+}

@@ -1,0 +1,119 @@
+body{
+	background-color:#f5f5f5;
+}
+.wrapper-1{
+	height:calc(100vh - 3.3125rem);
+	overflow:hidden;
+}
+#mainlogo{
+	background:url("./images/index_bg_1.png") no-repeat  50% 50%;
+	margin-top:calc(50vh - calc(280px + calc(3.3125rem - 2.5rem)) );/*50%-(mainlogo img height/2+40)*/
+}
+#mainlogo img{
+	display:block;
+	width:390px; /*height=480px*/
+}
+#mainlogo img,#logomenu,#logomenu a img{
+	margin-left:auto;
+	margin-right:auto;	
+}
+#logomenu{
+	position:absolute;
+	width:100%;	
+	top:calc(50vh + 55px);	
+	background:url("./images/index_bg_2.png") no-repeat center;
+	background-size:contain;
+	text-align:center;
+	z-index:1;
+}
+#logomenu a,#logomenu img{
+	height:40px;
+	width:auto;
+}
+#logomenu a{
+	display:inline-block;
+}
+#logomenu a img{
+	height:36px;
+	width:auto;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+#logomenu a img:last-child{
+	display:none;
+}
+#logomenu a:hover img:first-child{
+	display:none;
+}
+#logomenu a:hover img:last-child{
+	display:block;
+}
+
+/*Laptop*/
+@media only screen and (min-width:769px) and (max-width:1024px){
+	#mainlogo{
+		margin-top:calc(50vh - calc(232px + calc(3.3125rem - 2.5rem)));
+		background-size:contain;
+	}
+	#mainlogo img{
+		max-width:377px;
+	}
+	
+	#logomenu{
+		top:calc(50vh + 90px);
+	}
+	#logomenu a,#logomenu img{
+		height:36px;
+		width:auto;
+	}
+	#logomenu a img{
+		height:32px;
+		width:auto;
+	}
+}
+/*Tablet*/
+@media only screen and (min-width:481px) and (max-width:768px){
+	/*Main Body*/
+	#mainlogo{
+		margin-top:calc(50vh - calc(216px + calc(3.3125rem - 2.5rem)));
+		background-size:contain;
+	}
+	#mainlogo img{
+		width:351px;
+	}
+	
+	#logomenu{
+		top:calc(50vh + 85px);
+		
+	}
+	#logomenu a,#logomenu img{
+		height:32px;
+		width:auto;
+	}
+	#logomenu a img{
+		height:28px;
+		width:auto;
+	}
+
+}
+/*Mobile*/
+@media only screen and (max-width:480px){
+	/*Main Body*/
+	#mainlogo{
+		margin-top:calc(50vh - calc(216px + calc(2.4375rem - 2.5rem)));
+	}
+	#mainlogo img{
+		max-width:325px;
+	}
+	#logomenu{
+		top:calc(50vh + 75px);
+	}
+	#logomenu a,#logomenu img{
+		height:28px;
+		width:auto;
+	}
+	#logomenu a img{
+		height:24px;
+		width:auto;
+	}
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kit & Crow Creations/Gallery</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" as="style" type="text/css" href="../../files_gen/fonts.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">	
+		<link rel="stylesheet" type="text/css" href="../../files_gen/general.css">
+		<link rel="stylesheet" type="text/css" href="../../files_gen/heading.css">
+		<link rel="stylesheet" type="text/css" href="../../files_gen/content.css">
+		<link rel="stylesheet" type="text/css" href="../../files_gen/fonts.css">	
+		<link rel="stylesheet" type="text/css" href="./gallery.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coda&display=swap">
+		<link rel="icon" href="../../images_gen/favicon.png">
+	</head>
+	<body>
+			<header>
+				<!--*Navigation*-->
+				<div id="nav">
+					<ul>
+						<img src="../../images_gen/icon-logo3.png"/>
+						<li><a href="../../index.html">Home</a></li>
+						<li><a href="../work.html" class="current">Works</a></li>
+						<li><a href="../../Blog/blog.html">Blog</a></li>
+						<li><a href="../../About/about.html" >About</a></li>
+						<!--*External Media Links*-->
+						<li class="smlink"><a href="#"><img title="Facebook" src="../../images_gen/icon-facebook.png"/></a></li>
+						<li class="smlink"><a href="https://github.com/etuncan/Porfolio2.0" target="_blank" rel="noopener noreferrer"><img title="GitHub" src="../../images_gen/icon-github.png"/></a></li>
+						<li class="smlink"><a href="https://www.linkedin.com/in/erin-tuncan-609930109/" target="_blank" rel="noopener noreferrer"><img title="Linkedin" src="../../images_gen/icon-linkedin.png"/></a></li>
+					</ul>
+				</div>
+			</header>
+			<div class="trail">
+					<a href="../work.html">Works</a>/<span>Gallery</span>
+				</div>
+			</div>
+			
+			<div class="flexbox"><h1>&#183;&#32;Gallery&#32;&#183;</h1></div>
+			
+			<!--*Main Body*-->
+			<div class="wrapper">
+				
+				<div id="gallery">	
+					
+					<div class="gItem">
+						<img class="active" src="./images/IMG_4104.jpg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/ph1.jpg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/stockimg1.jpg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/ph2.jpg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/stockimg2.jpg" alt="testing"/>
+					</div>
+					<!--5-->
+					<div class="gItem">
+						<img class="active" src="./images/ph4.jpeg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/stockimg3.jpg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/ph5.jpeg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/stockimg4.jpg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/ph6.jpeg" alt="testing"/>
+					</div>
+					<!--10-->
+					<div class="gItem">
+						<img class="active" src="./images/ph3.jpg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/ph10.jpg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/ph11.jpg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/ph12.jpg" alt="testing"/>
+					</div>
+					
+					<div class="gItem">
+						<img class="active" src="./images/ph8.jpeg" alt="testing"/>
+					</div>
+					<!--15-->
+					<div class="gItem">
+						<img class="active" src="./images/ph14.jpg" alt="testing"/>
+					</div>
+					<!--16-->
+				</div>
+				
+				<!--*Light Box*-->
+				<div id="myModal" class="lightBox">
+					<span id="close">
+						<svg class="hover-svg-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="#fff">
+							<path d="m12.45 38.85-3.3-3.3L20.7 24 9.15 12.45l3.3-3.3L24 20.7 35.55 9.15l3.3 3.3L27.3 24l11.55 11.55-3.3 3.3L24 27.3Z"/>
+						</svg>
+					</span>	
+					<img id="modalImage"  src=""/>
+					<a id="prev" onclick="switchImage(-1)">
+						<svg class="hover-svg-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="#fff">
+							<path d="M28.05 37.2 14.8 23.95 28.05 10.7l3.35 3.35-9.9 9.9 9.9 9.9Z"/>
+						</svg>
+					</a>
+					<a id="next" onclick="switchImage(1)">
+						<svg class="hover-svg-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="#fff">
+							<path d="m18.75 37.2-3.35-3.35 9.9-9.9-9.9-9.9 3.35-3.35L32 23.95Z"/>
+						</svg>
+					</a>
+				</div>
+				
+			</div>
+			
+			<script type="text/javascript" src="./gallery.js"></script>
+		</div>
+	</body>
+</html>

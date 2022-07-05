@@ -1,0 +1,183 @@
+.wrapper,#gallery,.gitem{
+	margin-left:auto;
+	margin-right:auto;
+}
+.wrapper{
+	width:80%;
+	height:;
+	min-height:100%;
+	margin-top:20px;
+}
+h1,#galsubtxt{
+	text-align:center;
+	font-family:'Coda',cursive;
+}
+h1{	
+	margin-bottom:0;
+}
+#galsubtxt{
+	margin-bottom:2%;
+}
+#galsubtxt p{
+	margin-top:5px;
+	margin-bottom:0;
+	font-weight:700;
+	font-size:1rem;
+}
+#galsubtxt span{
+	font-size:0.6rem;
+}
+/*Gallery*/
+#gallery{
+	width:80%;
+	height:;
+	font-size:;
+	padding:;
+	display:grid;
+	grid-column-gap:2%;
+	grid-row-gap:2%;
+	grid-template-columns:23.5% 23.5% 23.5% 23.5%;
+	grid-row-height:1fr;
+
+}
+
+.gItem{
+	height:10vw;
+	max-height:200px;
+	max-width:200px;
+	text-align:center;
+}
+
+.gItem img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+.gItem img:hover{
+	cursor:pointer;
+	opacity:80%;
+}
+
+.caption{
+	display:none;
+}
+
+.lightBox{
+	display:none;
+	overflow:auto;
+	position:fixed;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	z-index:1;
+	padding:0;
+	background-color:rgb(0,0,0);
+	background-color:rgb(0,0,0,0.6);
+}
+
+#modalImage{
+	display:block;
+	position:relative;
+	max-width:1000px;
+	max-height:80%;
+	top:50%;
+	transform:translateY(-50%);
+	margin:auto;
+}
+
+#prev,#next{
+	position:absolute;
+	width:auto;
+	top:50%;
+	transform:translateY(-50%);
+	padding:16px;
+	cursor:pointer;
+	font-size:60px;
+	font-weight:bold;
+	color:#f1f1f1;
+	transition:0.6s ease;
+	
+}
+
+#next{
+	right:20px;
+	border-radius: 3px 0 0 3px;
+}
+
+#prev{
+	left:20px;
+	border-radius:0 3px 3px 0;
+}
+
+#close{
+	position:absolute;
+	top:15px;
+	right:35px;
+	transition:0.3s;
+	font-size:60px;
+	font-weight:bold;
+	color:#f1f1f1;
+}
+
+#close:hover,#close:focus{
+	cursor:pointer;
+	text-decoration:none;
+	color:#bbb;
+}
+
+/*Laptop*/
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+}
+/*Tablet*/
+@media only screen and (max-width:481px) and (max-width:768px){
+
+}
+/*Mobile*/
+@media only screen and (max-width:480px){
+	.wrapper{
+		width:100%;
+	}
+	
+	#galsubtxt span{
+		font-size:0.5rem;
+	}
+	/*Gallery*/
+	#gallery{
+		width:90%;
+	}
+
+	.gItem{
+		height:20vw;
+	}
+
+	#modalImage{
+		max-width:80%;
+		max-height:80%;
+	}
+
+	#prev,#next{
+		padding:4px;
+		font-size:20px;
+	}
+
+	#next{
+		right:5px;
+	}
+
+	#prev{
+		left:5px;
+	}
+
+	#close{
+		position:absolute;
+		top:5px;
+		right:15px;
+		transition:0.3s;
+		font-size:30px;
+		font-weight:bold;
+		color:#f1f1f1;
+	}
+}
