@@ -1,21 +1,53 @@
 /*General content styling*/
+
+/*Element*/
 p,span{
 	line-height:1.25;
 	margin:0;
 }
+option{
+	color:initial;
+	font-weight:500;
+}
+aside section{
+	padding-left:0.75rem;
+	padding-right:0.75rem;
+}
+aside ul{
+	margin:0.5rem 0;
+}
+aside li{
+	padding:0.5rem 0.5rem;
+}
+aside p{
+	font-family:'Roboto';
+	font-size:0.875rem;
+	margin-bottom:0.5rem;
+	color:#fff;
+}
+q{
+	font-style:oblique;
+}
+/*Id*/
+
+/*Class*/
 .w-content-1{
-	margin:0.5rem 0 1.25rem 0;
+	margin:0.5rem 1.5vw 1.25rem 0;
 	padding:0;
 }
 .w-content-2{
-	margin:0.5rem 0 0.5rem 0;
+	margin:0 0 0.5rem 0;
 	padding:0;
+}
+.w-content-1 a,.w-content-2 a{
+	color:#d35400;
+	font-weight:500;
 }
 .w-content-1 p,.w-content-2 p{
 	margin:0;	
 	font-family:'Roboto';
 	font-weight:400;
-	font-size:inherit;
+	font-size:1rem;
 }
 .w-content-1 p{
 	padding: 0.25rem 0.75rem;
@@ -23,17 +55,21 @@ p,span{
 .w-content-2 p{
 	padding:0.5rem 1.25rem;
 }
-.w-content-1 a,.w-content-2 a{
-	color:#d35400;
-}
 .list-wrapper-1{
 	margin:0.5rem 0 0 0;
 	padding:0;
 }
-aside section{
-	padding-left:0.75rem;
-	padding-right:0.75rem;
+/*SVG*/
+
+/*Media Queries*/
+/*Laptop*/
+@media only screen and (min-width:769px) and (max-width:1024px){
+	
 }
-aside li{
-	padding:0.5rem 0.5rem;
+/*Tablet*/
+@media only screen and (min-width:481px) and (max-width:768px){
+}
+/*Mobile*/
+@media only screen and (max-width:480px){
+
 }

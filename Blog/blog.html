@@ -10,8 +10,8 @@
 		<link rel="stylesheet" type="text/css" href="../files_gen/general.css">
 		<link rel="stylesheet" type="text/css" href="../files_gen/heading.css">
 		<link rel="stylesheet" type="text/css" href="../files_gen/content.css">
+		<link rel="stylesheet" type="text/css" href="../files_gen/fonts.css">		
 		<link rel="stylesheet" type="text/css" href="./blog.css">
-		<link rel="stylesheet" type="text/css" href="../files_gen/fonts.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coda&display=swap">
@@ -24,7 +24,7 @@
 				<!--*Navigation*-->
 				<div id="nav">
 					<ul>
-						<img src="../images_gen/icon-logo3.svg"/>
+						<img src="../images_gen/icon-logo3.png"/>
 						<li><a href="../index.html">Home</a></li>
 						<li><a href="../Work/work.html">Works</a></li>
 						<li><a href="./blog.html" class="current">Blog</a></li>
@@ -37,16 +37,20 @@
 				</div>
 			</header>
 			
-			<div class="flexbox"><h1>&#183;&#32;Blog&#32;&#183;</h1></div>
+			<div class="flexbox fb-space"><h1>&#183;&#32;Blog&#32;&#183;</h1></div>
 			
 			<div id="main_article" class="wrapper-2">
 
 				<div id="searchbar">
-					<select onchange="typeChange()">
+					<select onchange="typeChange()" class="click-style-2">
 						<option value="name" selected>Title</option>
 						<option value="time">Date</option>
 					</select>
-					<input type="text" oninput="searchFor()" id="search_input" placeholder="Search...">
+					<input type="text" oninput="searchFor()" id="search_input" class="click-style-2" placeholder="Search...">
+					
+					<svg id="icon-search" class="hover-svg-2" class="click-style-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" onclick="contentRevealBar(this)" fill="#757575">
+						<path d="m19.6 21-6.3-6.3q-.75.6-1.725.95Q10.6 16 9.5 16q-2.725 0-4.612-1.887Q3 12.225 3 9.5q0-2.725 1.888-4.613Q6.775 3 9.5 3t4.613 1.887Q16 6.775 16 9.5q0 1.1-.35 2.075-.35.975-.95 1.725l6.3 6.3ZM9.5 14q1.875 0 3.188-1.312Q14 11.375 14 9.5q0-1.875-1.312-3.188Q11.375 5 9.5 5 7.625 5 6.312 6.312 5 7.625 5 9.5q0 1.875 1.312 3.188Q7.625 14 9.5 14Z" />
+					</svg>
 				</div>
 				
 				<article class="blogpost">
@@ -59,13 +63,13 @@
 						<p>
 							The importance of a well-planned color palette can not be overstated. 
 							I try to always stick to three to five colors per palette: 
-							a primary, secondary, and one to three tertiaries. <a>...Read More></a>
+							a primary, secondary, and one to three tertiaries... <a>Read More&#8201;></a>
 						</p>
 					</section>
 				</article>
 				
 				<article class="blogpost">
-					<section class="h-type-2">
+					<section class="h-type-2" >
 						<time>03/31/21</time>
 						<h3>My Design Process, and how it has changed</h3>	
 					</section>
@@ -73,7 +77,7 @@
 					<p>
 						My design process starts with a pictoral wireframe sketch on paper. 
 						The next step is making a list of the major methods and 
-						functions that fulfill all the necessary processes... <a>Read More></a>
+						functions that fulfill all the necessary processes... <a>Read More&#8201;></a>
 					</p>
 					</section>
 				</article>
@@ -96,10 +100,11 @@
 			</div>
 			
 			<footer>
-				<section>Kit and Crow Creations &copy 2017-2021</section>
-				<section>All orignal code and images created by Erin Tuncan</section>
+				<span>Kit and Crow Creations &copy 2017-2021</span>
+				<span>All orignal code and images created by Erin Tuncan</span>
 			</footer>	
 		</div>
 		<script src="./blog.js"></script>
+		<script src="../files_gen/general_functions_001.js"></script>
 	</body>
 </html>

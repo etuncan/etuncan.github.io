@@ -4,7 +4,6 @@ body{
 .wrapper-1{
 	height:calc(100vh - 3.3125rem);
 	overflow:hidden;
-	text-align:center;
 }
 #mainlogo{
 	background:url("./images/index_bg_1.png") no-repeat  50% 50%;
@@ -19,11 +18,11 @@ body{
 	margin-right:auto;	
 }
 #logomenu{
+	position:absolute;
+	width:100%;	
+	top:calc(50vh + 55px);	
 	background:url("./images/index_bg_2.png") no-repeat center;
 	background-size:contain;
-	position:absolute;
-	top:calc(50vh + 55px);
-	width:100%;
 	text-align:center;
 	z-index:1;
 }
@@ -100,16 +99,12 @@ body{
 /*Mobile*/
 @media only screen and (max-width:480px){
 	/*Main Body*/
-	.wrapper{
-		height:calc(100vh - 2.4375rem);
-	}
 	#mainlogo{
 		margin-top:calc(50vh - calc(216px + calc(2.4375rem - 2.5rem)));
 	}
 	#mainlogo img{
 		max-width:325px;
 	}
-	
 	#logomenu{
 		top:calc(50vh + 75px);
 	}
@@ -121,5 +116,4 @@ body{
 		height:24px;
 		width:auto;
 	}
-	
 }
