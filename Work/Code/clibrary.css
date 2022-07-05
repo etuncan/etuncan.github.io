@@ -1,16 +1,5 @@
 
 
-/*Main Body*/
-.wrapper{
-	max-width:1000px;
-	width:90%;
-	height:100%;
-	margin:0 auto;
-	padding-bottom:2.5rem;
-	background-color:;
-}
-
-
 /*table for external code links and sorting*/
 table{
 	border-collapse:/*collapse*/;
@@ -33,18 +22,21 @@ thead{
 	margin:0;
 	padding:0;
 	float:right;
-	background:url('../Assets/arrows.png') center no-repeat;
+	background:url('./images/arrows.png') center no-repeat;
 	background-size:1rem 1rem;
 	
 }
 th,td{
 	padding:6px 10px;
+	letter-spacing:0.02em;
 }
 th{
+	font-family:'Coda';
+	font-weight:300;
 	text-align:left;
 	font-size:1rem;
 	color:#ffffff;
-	background-color:#2a2a2a;
+	background-color:#131313;
 }
 
 tr:nth-of-type(odd){
@@ -56,8 +48,10 @@ tr:nth-of-type(even){
 	color:#000000;
 }
 td{
+	font-family:'Roboto',sans-serif;	
 	font-size:0.875rem;
-	font-family:Verdana,sans-serif;
+	font-weight:400;
+
 }
 td a{
 	color:inherit;
@@ -85,9 +79,9 @@ td a{
 }
 /*Mobile*/
 @media only screen and (max-width:480px){
-	.wrapper{
-		width:98%;
-	}	
+	table{
+		min-width:180px;
+	}
 	/*table for external code links and sorting*/
 	.sort{
 		width:12px;
