@@ -31,7 +31,7 @@
 	border-left:0;
 	border-right:0;	
 	line-height:inherit;
-	color:#757575;	
+	color:#c5c5c5;	
 	cursor:pointer;
 }
 #searchbar input{
@@ -41,15 +41,16 @@
 	background-color:inherit;
 	outline:none;
 	border:none;
-	border-bottom:1px solid #757575;
+	border-bottom:1px solid #c5c5c5;
 	line-height:inherit;
-	color:#fff;
+	color:#c5c5c5;
 	text-indent:0.25rem;
 }
 #searchbar svg{
-	fill:#757575;
-	border:none;
-	border-radius:3px;
+	fill:#c5c5c5;
+}
+#icon-search:hover{
+	cursor:pointer;
 }
 /**Class**/
 .wrapper-2{

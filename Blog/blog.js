@@ -1,4 +1,7 @@
-const SEARCH_SCOPE=document.getElementById("main_article"); 
+function oops(){
+	alert("Sorry! The expand article functionality hasn't been added yet!");
+}
+
 let g_boo=1;
 //Search Function
 function searchFor(){
