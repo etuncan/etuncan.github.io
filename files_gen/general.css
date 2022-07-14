@@ -81,7 +81,9 @@ footer span{
 	box-shadow: 0 3px 3px -3px rgb(0 0 0 / 50%);	
 }
 .shadow-t1{
-	text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
+	font-weight:700;
+	letter-spacing:0.05em;
+	text-shadow: 0px 0px 3px rgb(0 0 0 / 100%);
 }
 
 /*Js activated classes*/
