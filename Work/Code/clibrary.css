@@ -56,6 +56,9 @@ td{
 	font-weight:500;
 	letter-spacing:inherit;
 }
+.name a:hover{
+	color:#d35400;
+}
 .type{
 	text-align:left;
 }
