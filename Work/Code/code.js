@@ -29,7 +29,6 @@ function foo(){
 
 
 var n,z;
-/*MISSING:Icon Sorting Functions*/
 
 /*Name Sorting Functions*/
 function nameSort(){
@@ -38,18 +37,18 @@ function nameSort(){
 	table=document.getElementById("codetable").lastElementChild;
 	start=true;
 	ascent=true;
-	console.log(table);
 	while(start){
 		console.log("loop start");
 		//stops infinite loop
 		start=false;
 		rowlist=table.rows;
+		console.log(rowlist);
 		for(i=0;i<(rowlist.length-1);i++){
 			verify=false;
 			//change if new rows added
-			x=rowlist[i].firstElementChild.firstElementChild.innerText;
-			y=rowlist[i+1].firstElementChild.firstElementChild.innerText;
+			x=rowlist[i].firstElementChild.firstElementChild.innerText.replace(':',' ');
 			console.log(x);
+			y=rowlist[i+1].firstElementChild.firstElementChild.innerText.replace(':',' ');
 			console.log(y);
 			directionN(x,y);
 			if(ascent===true&&z===1){
