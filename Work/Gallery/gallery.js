@@ -1,9 +1,10 @@
-var modal=document.getElementById("myModal");
-var modalImage=document.getElementById("modalImage");
-var active=document.getElementsByClassName("active");
-var prev=document.getElementById("prev");
-var next=document.getElementById("next");
-var exit=document.getElementById("close");
+
+let modal=document.getElementById("myModal");
+let modalImage=document.getElementById("modalImage");
+let active=document.getElementsByClassName("active");
+let prev=document.getElementById("prev");
+let next=document.getElementById("next");
+let exit=document.getElementById("close");
 var imageNum;
 function listen(){
 	for(i=0; i<active.length; i++){
